@@ -1,0 +1,12 @@
+/* Joseph Anucha */
+
+header {
+    background-color: rgb(23, 149, 199);
+    border-radius: 20px 20px 20px 20px;
+    list-style-type: none;
+    display: flex;
+}
+
+footer {
+    background-color: rgb(49, 172, 221);
+}
