@@ -37,6 +37,10 @@ main p {
     margin: 0 10px 10px 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 footer p {
     color: rgb(194, 212, 29);
     font-weight: 600;
