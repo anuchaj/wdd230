@@ -1,0 +1,50 @@
+@charset "UTF-8"; /* not necessary */
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  background-color: white;
+  font-family: Roboto, Merriweather, sans-serif, Arial;
+}
+
+header {
+    background-color: #353434;
+}
+
+
+
+/* .top-nav {
+	overflow: hidden;
+	background-color: #E9E9E9;
+	border: 1px solid white;
+	border-radius: 0 0 20px 20px;
+  }
+  
+  .top-nav a {
+	float: left;
+	display: block;
+	color: #101319;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .top-nav a:hover {
+	background-color: #02223C;
+	color: white;
+  }
+  
+  .top-nav a.active {
+	background-color: #02223C;
+	color: white;
+  }
+  
+  .top-nav input[type=text] {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	border: none;
+	font-size: 17px;
+} */
