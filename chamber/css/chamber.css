@@ -9,7 +9,45 @@ body {
 
 header {
     background-color: #353434;
+	display: grid;
+    grid-template-columns: repeat(9, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1em;
+    margin-top: 1em;
+	border-radius: 20px 20px 20px 20px;
 }
+
+header img {
+	margin-left: 30px;
+}
+
+.logo {
+	grid-column: 1 / 3;
+  	grid-row: 1 / 2;
+}
+
+.nav-links {
+	grid-column: 4 / 8;
+  	grid-row: 1 / 2;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.social-icons {
+	grid-column: 8 / 8;
+  	grid-row: 1 / 2;
+}
+
+.display-date {
+	grid-column: 4 / 7;
+  	grid-row: 2 / 3;
+	background-color: beige;
+}
+
+
+
 
 
 
