@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Assignment portal for Joseph Anucha in WDD 230: 
     Web Frontend Development at Brigham Young University - Idaho">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+    <link rel="shortcut icon" href="images/logo-img.webp">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/chamber-pro.css"/>
@@ -38,11 +39,29 @@
     <main>
         <div class="events">
             <p>Events</p>
-            <img src="images/placeholder1.png" alt="Photo">
+            <img src="images/placeholder6.png" alt="Photo">
         </div>
 
         <div class="hero">
+            <picture>
+                <!-- <source media="(max-width: 400px)" srcset="images/wdd-img400w-450h.webp"> -->
+                <source media="(max-width: 600px)" srcset="images/wdd-img750w-800h.webp">
+                <source media="(max-width: 800px)" srcset="images/wdd-img800w-850h.webp">
+                <source media="(min-width: 990px)" srcset="images/wdd-img1068w-850h.webp">
+                <img src="images/wdd-img1068w-850h.webp" alt="The Hero Photo">
+            </picture>
+
+
             <!-- <img src="images/cityimg3.jpg" alt="Photo"> -->
+            <!-- <img srcset="images/wdd230-small-img.webp 400w,
+                        images/wdd230-medium-img.webp 600w,
+                        images/wdd230-img-default.webp 800w"
+                sizes="(max-width: 500px) 400px,
+                        (max-width: 700px) 600px,
+                        800px"
+                src="images/wdd230-img-default.webp"
+                alt="The Hero Photo"> -->
+
             <section class="welcome">
                 <h1>Welcome to BizConnect</h1>
             </section>
@@ -68,8 +87,14 @@
         </article>
 
         <div class="weather">
-            <p>Weather</p>
-            <img src="images/placeholder6.png" alt="Photo">
+            <h2 class="weather-text">Weather</h2>
+            <p class="weather-icon"><img src="images/weather2.png" alt="weather image"> <span class="weather-degree"></span></p>
+            <h2 class="weather-state">Partly Cloudy</h2>
+            <hr>
+            <div class="weather-info">
+                <p>Wind Speed: <span id="wind-speed"></span></p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
+            </div>
         </div>
 
         <div class="join">
@@ -108,6 +133,7 @@
             <span>Last modification: <span id="datemodified"></span></span>
         </div>
         <script src="js/chamber.js"></script>
+        <script src="js/windchill.js"></script>
     </footer>
 </body>
 </html>
