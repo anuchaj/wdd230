@@ -1,3 +1,16 @@
+// Joseph Anucha
+// Progressive Loading
+
+/* let imagesToLoad = document.querySelectorAll('img[data-src]');
+const loadImages = (image) => {
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = () => {
+    image.removeAttribute('data-src');
+  };
+}; */
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages = document.querySelectorAll("img.lazy");    
   var lazyloadThrottleTimeout;
@@ -26,4 +39,4 @@ document.addEventListener("DOMContentLoaded", function() {
   document.addEventListener("scroll", lazyload);
   window.addEventListener("resize", lazyload);
   window.addEventListener("orientationChange", lazyload);
-});
+}); 
