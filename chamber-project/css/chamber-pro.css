@@ -157,7 +157,7 @@ main {
 .weather-icon {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 3px;
 }
 
 .weather-icon img {
@@ -175,7 +175,9 @@ main {
 
 .weather-degree {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
