@@ -83,7 +83,7 @@ main {
 } */
 
 .events {
-    background-color: #061764;
+    background-color: #173a47;
     grid-column: 1;
     grid-row: 1;
 }
@@ -138,7 +138,7 @@ main {
 .spotlight {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #061764;
+    background-color: #173a47;
     grid-column: 5;
     grid-row: 1 / 4;
 }
@@ -147,7 +147,7 @@ main {
     color: white;
     grid-column: 1;
     grid-row: 2;
-    background-color: #061764;
+    background-color: #173a47;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -195,13 +195,13 @@ main {
 }
 
 .join {
-    background-color: #061764;
+    background-color: #173a47;
     grid-column: 1;
     grid-row: 3;
 }
 
 .news-releases {
-    background-color: #061764;
+    background-color: #173a47;
     grid-column: 2 / 4;
     grid-row: 3;
 }
