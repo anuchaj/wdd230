@@ -1,0 +1,125 @@
+[
+    {
+        "fdcId":1104067,
+        "description":"100 GRAND Bar",
+        "dataType":"Survey (FNDDS)",
+        "publicationDate":"2020-10-30",
+        "foodCode":"91715300",
+        "foodNutrients":[
+            {"number":"203","name":"Protein","amount":2.50,"unitName":"G"},
+            {"number":"204","name":"Total lipid (fat)","amount":19.3,"unitName":"G"},
+            {"number":"205","name":"Carbohydrate, by difference","amount":71.0,"unitName":"G"},
+            {"number":"208","name":"Energy","amount":468,"unitName":"KCAL"},
+            {"number":"221","name":"Alcohol, ethyl","amount":0E-8,"unitName":"G"},
+            {"number":"255","name":"Water","amount":6.10,"unitName":"G"},
+            {"number":"262","name":"Caffeine","amount":8.00,"unitName":"MG"}
+        ]
+    },
+    {
+        "fdcId":1104086,
+        "description":"3 MUSKETEERS Bar",
+        "dataType":"Survey (FNDDS)",
+        "publicationDate":"2020-10-30",
+        "foodCode":"91726420",
+        "foodNutrients":[
+            {"number":"203","name":"Protein","amount":2.60,"unitName":"G"},
+            {"number":"204","name":"Total lipid (fat)","amount":12.8,"unitName":"G"},
+            {"number":"205","name":"Carbohydrate, by difference","amount":77.8,"unitName":"G"},
+            {"number":"208","name":"Energy","amount":436,"unitName":"KCAL"},
+            {"number":"221","name":"Alcohol, ethyl","amount":0E-8,"unitName":"G"},
+            {"number":"255","name":"Water","amount":5.80,"unitName":"G"},
+            {"number":"262","name":"Caffeine","amount":7.00,"unitName":"MG"},
+            {"number":"263","name":"Theobromine","amount":106,"unitName":"MG"}
+        ]
+    },
+    {
+        "fdcId":1104087,
+        "description":"3 Musketeers Truffle Crisp Bar",
+        "dataType":"Survey (FNDDS)",
+        "publicationDate":"2020-10-30",
+        "foodCode":"91726425",
+        "foodNutrients":[
+            {"number":"203","name":"Protein","amount":6.41,"unitName":"G"},
+            {"number":"204","name":"Total lipid (fat)","amount":28.8,"unitName":"G"},
+            {"number":"205","name":"Carbohydrate, by difference","amount":63.2,"unitName":"G"},
+            {"number":"208","name":"Energy","amount":538,"unitName":"KCAL"},
+            {"number":"221","name":"Alcohol, ethyl","amount":0E-8,"unitName":"G"},
+            {"number":"255","name":"Water","amount":0.180,"unitName":"G"},
+            {"number":"262","name":"Caffeine","amount":16.0,"unitName":"MG"}
+        ]
+    },
+    {
+        "fdcId":1099098,
+        "description":"Abalone, cooked, NS as to cooking method",
+        "dataType":"Survey (FNDDS)","publicationDate":"2020-10-30",
+        "foodCode":"26301110","foodNutrients":[
+            {"number":"203","name":"Protein","amount":20.4,"unitName":"G"},
+            {"number":"204","name":"Total lipid (fat)","amount":4.59,"unitName":"G"},
+            {"number":"205","name":"Carbohydrate, by difference","amount":7.26,"unitName":"G"},
+            {"number":"208","name":"Energy","amount":158,"unitName":"KCAL"},
+            {"number":"221","name":"Alcohol, ethyl","amount":0E-8,"unitName":"G"},
+            {"number":"255","name":"Water","amount":65.1,"unitName":"G"}
+        ]
+    },
+    {
+        "fdcId":1099099,
+        "description":"Abalone, floured or breaded, fried",
+        "dataType":"Survey (FNDDS)",
+        "publicationDate":"2020-10-30",
+        "foodCode":"26301140",
+        "foodNutrients":[
+            {"number":"203","name":"Protein","amount":18.2,"unitName":"G"},
+            {"number":"204","name":"Total lipid (fat)","amount":11.4,"unitName":"G"},
+            {"number":"205","name":"Carbohydrate, by difference","amount":15.5,"unitName":"G"},
+            {"number":"208","name":"Energy","amount":242,"unitName":"KCAL"},
+            {"number":"221","name":"Alcohol, ethyl","amount":0E-8,"unitName":"G"},
+            {"number":"255","name":"Water","amount":52.4,"unitName":"G"},
+            {"number":"262","name":"Caffeine","amount":0E-8,"unitName":"MG"},
+            {"number":"263","name":"Theobromine","amount":0E-8,"unitName":"MG"}
+        ]
+    },
+    {
+        "fdcId":1099100,
+        "description":"Abalone, steamed or poached","dataType":"Survey (FNDDS)",
+        "publicationDate":"2020-10-30","foodCode":"26301160",
+        "foodNutrients":[
+            {"number":"204","name":"Total lipid (fat)","amount":1.51,"unitName":"G"},
+            {"number":"205","name":"Carbohydrate, by difference","amount":12.0,"unitName":"G"},
+            {"number":"208","name":"Energy","amount":209,"unitName":"KCAL"},
+            {"number":"221","name":"Alcohol, ethyl","amount":0E-8,"unitName":"G"},
+            {"number":"255","name":"Water","amount":48.5,"unitName":"G"},
+            {"number":"262","name":"Caffeine","amount":0E-8,"unitName":"MG"}
+        ]
+    },
+    {
+        "fdcId":167782,
+        "description":"Abiyuch, raw",
+        "dataType":"SR Legacy",
+        "publicationDate":"2019-04-01",
+        "ndbNumber":"9427",
+        "foodNutrients":[
+            {"number":"318","name":"Vitamin A, IU","amount":100,"unitName":"IU","derivationCode":"A","derivationDescription":"Analytical"},
+            {"number":"268","name":"Energy","amount":290,"unitName":"kJ","derivationCode":"NC","derivationDescription":"Calculated"},
+            {"number":"205","name":"Carbohydrate, by difference","amount":17.6,"unitName":"G","derivationCode":"NC","derivationDescription":"Calculated"},
+            {"number":"208","name":"Energy","amount":69.0,"unitName":"KCAL","derivationCode":"NC","derivationDescription":"Calculated"},
+            {"number":"319","name":"Retinol","amount":0E-8,"unitName":"UG","derivationCode":"Z","derivationDescription":"Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)"},
+            {"number":"320","name":"Vitamin A, RAE","amount":5.00,"unitName":"UG","derivationCode":"A","derivationDescription":"Analytical"}
+        ]
+    },
+    {
+        "fdcId":171687,
+        "description":"Acerola juice, raw",
+        "dataType":"SR Legacy",
+        "publicationDate":"2019-04-01",
+        "ndbNumber":"9002",
+        "foodNutrients":[
+            {"number":"268","name":"Energy","amount":96.0,"unitName":"kJ"},
+            {"number":"431","name":"Folic acid","amount":0E-8,"unitName":"UG","derivationCode":"Z","derivationDescription":"Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)"},
+            {"number":"607","name":"SFA 4:0","amount":0E-8,"unitName":"G"},
+            {"number":"608","name":"SFA 6:0","amount":0E-8,"unitName":"G"},
+            {"number":"610","name":"SFA 10:0","amount":0E-8,"unitName":"G"},
+            {"number":"613","name":"SFA 16:0","amount":0.0480,"unitName":"G"},
+            {"number":"614","name":"SFA 18:0","amount":0.0160,"unitName":"G"}
+        ]
+    }
+]
