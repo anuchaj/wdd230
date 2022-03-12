@@ -15,30 +15,31 @@ fetch(requestURL)
   
 function displayCompanies(company) {
   // Create elements to add to the document
-  let card = document.createElement('section');
-  card.setAttribute('class','grid');
-  let logo = document.createElement('img');
-  let h2 = document.createElement('h2');
-  let h3 = document.createElement('h3');
-  let h4 = document.createElement('h4');
-  let order = "";
+  let card = document.createElement("section");
+  card.setAttribute("class","grid");
+  let logo = document.createElement("img");
+  let h2 = document.createElement("h2");
+  let h3 = document.createElement("h3");
+  let h4 = document.createElement("h4");
+  let h5 = document.createElement("h5");
 
   // Change the textContent property of the h2 element to contain the company's full name
-  h2.textContent = ` ${prophet.name} ${prophet.lastname}`;
-  h3.innerHTML = `Birthdate: <Strong>${prophet.birthdate}<Strong>`;
-  h4.textContent = `Birthplace: ${prophet.birthplace}`;
+  h2.textContent = ` ${company.name}`;
+  h3.innerHTML = `Address: <Strong>${company.address}<Strong>`;
+  h4.textContent = `Phone: ${company.phone}`;
   
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-  portrait.setAttribute('src', prophet.imageurl);
-  portrait.setAttribute('alt', `Portait of Prophet #${prophet.order} ${prophet.name} ${prophet.lastname}`);
-  portrait.setAttribute('loading', 'lazy');
+  logo.setAttribute("src", company.imageurl);
+  logo.setAttribute("alt", `Logo of ${company.name}`);
+  logo.setAttribute("loading", "lazy");
 
   // Add/append the section(card) with the h2 element
+  card.appendChild(logo);
   card.appendChild(h2);
-  card.appendChild(portrait);
   card.appendChild(h3);
   card.appendChild(h4);
+  card.appendChild(h5);
 
   // Add/append the existing HTML div with the cards class with the section(card)
-  cards.appendChild(card);
+  companies_directory.appendChild(card);
 }
