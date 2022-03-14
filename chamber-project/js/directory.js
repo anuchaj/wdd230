@@ -27,6 +27,7 @@ function displayCompanies(company) {
   h2.textContent = ` ${company.name}`;
   h3.innerHTML = `Address: <Strong>${company.address}<Strong>`;
   h4.textContent = `Phone: ${company.phone}`;
+  h5.textContent = `Website: ${company.website}`;
   
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   logo.setAttribute("src", company.imageurl);
