@@ -7,7 +7,7 @@ function calculate_wind(temp, speed) {
 
 /* const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=Fairbanks&appid=a78ec261e24b796f729e2597d514690b"; */
 const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=Aba&units=imperial&appid=a78ec261e24b796f729e2597d514690b"; // Celcius
-// Aba City ID: 2353151 if you want to call by id
+// Aba City ID: 2353151 if you want to call by id anytime.
 
 fetch(apiURL)
   .then((response) => response.json())
