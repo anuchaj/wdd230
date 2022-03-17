@@ -153,23 +153,24 @@ main.home, main.discover-page, main.join-page {
 }
 
 .weather hr {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 
-.weather-icon {
+.weather-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3px;
+    align-items: center;
 }
 
-.weather-icon img {
+.weather-info img {
     grid-column: 1;
     max-width: 100%;
 }
 
-.weather-icon h2 {
+.weather-info h3 {
     grid-column: 2;
 }
 
@@ -177,21 +178,26 @@ main.home, main.discover-page, main.join-page {
     text-align: center;
 }
 
-.weather-degree {
-    text-align: center;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+.weather-temp {
+    text-align: left;
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.weather-info p {
+.weathericon {
+    text-align: center;
+    align-items: center;
+}
+
+.weather-details p {
     text-align: center;
 }
 
-.weather-state {
+.weather-desc {
     text-align: right;
+    padding-bottom: 0px;
+    border: 0px;
+    margin-bottom: 0px;
 }
 
 .join {
@@ -350,6 +356,11 @@ footer {
 
 .footer-logo p {
     text-align: left;
+}
+
+.footer-address2 p a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .footer-logo img {
