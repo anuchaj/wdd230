@@ -17,24 +17,25 @@ fetch(apiURL)
 
     const wind_speed = jsObject.list[0].wind.speed;
     const temp = jsObject.list[0].main.temp;
+    roundTemp = Math.round(temp)
 
-    document.querySelector("#wind-speed").textContent = wind_speed.toFixed(1);
-    document.querySelector(".current-temp").textContent = temp.toFixed(1);
+    document.querySelector(".windSpeed").textContent = wind_speed.toFixed(1) + " kph";
+    document.querySelector(".temp").textContent = roundTemp;
 
     // check to see if the inputs meet the standard
     if (temp <= 50 && wind_speed > 3) {
       wind_chill = calculate_wind(temp, wind_speed);
-      document.querySelector("#wind-chill").textContent = wind_chill.toFixed(1) + " mph";
+      document.querySelector(".windChill").textContent = wind_chill.toFixed(1) + " mph";
     
     } else {
-        document.querySelector("#wind-chill").textContent = "N/A";
+        document.querySelector(".windChill").textContent = "N/A";
     }
 
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
     const desc = jsObject.list[0].weather[0].description;
     document.querySelector("#weathericon").setAttribute("src", iconsrc);
     document.querySelector("#weathericon").setAttribute("alt", desc);
-    document.querySelector(".weather-desc").textContent = desc;
+    document.querySelector(".description").textContent = desc.toUpperCase();
         
   });
 

@@ -1,78 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-        <title>Join | BIZCONNECT</title>
+    <head>
+        <!-- Meta Files -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Assignment portal for Joseph Anucha in WDD 230: 
-        Web Frontend Development at Brigham Young University - Idaho">
-        <link rel="shortcut icon" href="images/logo-img.webp">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="css/chamber-pro.css"/>
-        <link rel="stylesheet" href="css/directory.css"/>
-        <script src="js/directory.js" defer></script>
-        <!-- <link rel="stylesheet" href="css/large.css"/> -->
-  </head>
+        <meta name="description" content="BizConnect Chamber of Commerce">
 
-  <body>
-        <header>
-            <div class="company-logo">
-                <a href="index.html"><img src="images/logo-1.PNG" alt="Our Logo"/></a>
-            </div>
+        <!-- Site Icon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- <link rel="shortcut icon" href="images/logo-img.webp">-->
 
-            <nav class="nav-links">
-                <div><a href="discover.html">Discover</a></div>
-                <div><a class="active" href="directory.html">Directory</a></div>
-                <div><a  href="join.html">Join</a></div>
-                <div><a href="#">Contact</a></div>
-            </nav>
+        <!-- CSS Files -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/medium.css"/>
+        <link rel="stylesheet" href="css/large.css"/>
+        <link rel="stylesheet" href="css/directory.css">
 
-            <div class="social-icons">
-                <a href="https://www.facebook.com"><img src="images/fb-icon.png" width="30px" height="30px" alt="Facebook icon"></a>
-                <a href="https://www.linkedin.com"><img src="images/in-icon.png" width="30px" height="30px" alt="Linkedin icon"></a>
-            </div>
+        <!-- Pre load other related pages -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 
-            <div class="display-date">
-                <p><span id="banner"></span> Today's date: <span id="wk-day"></span>, <span id="date"></span> <span id="month"></span>
-                <span id="year"></span></p>
-            </div>
-        </header>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Title -->
+        <title>BizConnect Chamber of Commerce</title>
+    </head>
 
-    <!-- CONTENT HERE -->
-            <main class="directory">
-                <div class="row">
-                    <div class="companies_directory"></div>
-                </div>
-            </main>
+<body>
+  <div id="banner">
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+  </div>
+  <header>
+      <nav>
+          <a href="index.html"><img class="headerLogo" src="images/logo111.png" alt="chamber logo" width="100"></a>      
+          <div class="social">
+              <img class="facebook" src="images/fb-icon.png" alt="facebook icon" width="24" height="24">
+              <img class="linkdin" src="images/in-icon.png" alt="linkedin icon" width="24" height="24">
+          </div>
+          
+          <!-- Hamburguer Menu -->
 
-    <!-- FOOTER HERE -->
-        <footer>
-            <div class="footer-logo">
-                <img src="images/logo-2.PNG" alt="Company Logo">
-                <!-- <div class="footer-address-1"> -->
-                <div>
-                    <h2>BizConnect Chamber of Commerce</h2>
-                    <p>Union Bank Road</p>
-                    <p>Aba Nigeria</p>
-                </div>
-            </div>
-    
-            <div class="footer-address2">
-                <p>info@bizconnect.com</p>
-                <p>+234 806 432 7684</p>
-                <p><img src="images/map-location.png" width="30px" height="30px" alt="map pointer">Map Location</p>
-            </div>
-    
-            <div class="base">
-                <hr>
-                <span>&copy; <span id="©"></span></span>
-                <span> | Joseph Z. Anucha | </span>
-                <span>Brigham Young University - Idaho | WDD 230 Project | </span>
-                <span>Last modification: <span id="datemodified"></span></span>
-            </div>
-        </footer>
-        <script src="js/chamber.js"></script>
-        <script src="js/localstorage.js"></script>
-    </body>
+          <ul class="navigation">
+              <li><a class="ham" href="#"></a></li>
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a class="discoverbtn" href="discover.html">Discover</a></li>
+                <li><a class="directbtn" href="directory.html">Directory</a></li>
+                <li><a class="joinnbtn" href="join.html">Join</a></li>
+                <li><a class="contacttbtn" href="contact.html">Contact</a></li>
+          </ul> 
+      </nav>
+      <aside></aside>
+      
+  </header>
+
+  <main class="directory">
+    <h1>Business Directory</h1>
+    <div id="directoryBttn">
+      <button id="grid" onclick="gridView()">᎒᎒᎒</button>
+      <button id="list" onclick="listView()">᎒☰</button>
+    </div>
+    <div id="cards"></div>
+  </main>
+
+
+  <footer>
+    <div class="chamberInfo">
+        <img class="footerLogo" src="images/logo112.png" alt="chamber logo" width="109" height="122">
+        <p class="compName">BizConnect Chamber of Commerce</p>
+        <p class="address">Union Bank Junction <br> Aba, Nigeria </p>
+        <p class="cntctInfo">info@bizconnect.org <br> PBX: +593 4 2596100</p>
+        <a class="map" href=https://www.google.com/maps/place/Aba/@5.1167963,7.2969047,12z/data=!3m1!4b1!4m5!3m4!1s0x104299308f30fbf3:0x98345ebf0c8cbca1!8m2!3d5.1215877!4d7.3732655>📍 Location Map</a>
+    </div>
+    <hr style="width:90%;text-align:center;">
+    <div class="authoredInfo">
+        <p><span class="currentyear">© 2022 BizConnect Chamber of Commerce</span></p>
+        <p><span class="bar">|</span></p>  
+        <p><span class="name">Joseph Anucha</span></p>
+        <p><span class="bar1">|</span></p>
+        <p>WDD 230 Project</p>
+        <p><span class="bar2">|</span></p>
+        <div id="lastUpdate"></div>
+        <script>
+          document.querySelector(
+            "#lastUpdate"
+          ).textContent = `Last Update: ${document.lastModified}`;
+          </script>
+     </div>      
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/business.js"></script>
+</body>
+  
 </html>

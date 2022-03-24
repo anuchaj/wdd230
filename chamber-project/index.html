@@ -1,143 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>BizConnect Home</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment portal for Joseph Anucha in WDD 230: 
-    Web Frontend Development at Brigham Young University - Idaho">
-    <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
-    <link rel="shortcut icon" href="images/logo-img.webp">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="css/chamber-pro.css"/>
-</html>
+    <head>
+        <!-- Meta Files -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BizConnect Chamber of Commerce">
+
+        <!-- Site Icon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- <link rel="shortcut icon" href="images/logo-img.webp">-->
+
+        <!-- CSS Files -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/medium.css"/>
+        <link rel="stylesheet" href="css/large.css"/>
+
+        <!-- Pre load other related pages -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Title -->
+        <title>BizConnect Chamber of Commerce</title>
+    </head>
 
 <body>
+    <div id="banner">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
     <header>
-        <div class="company-logo">
-            <a href="index.html"><img src="images/logo-1.PNG" alt="Our Logo"/></a>
-        </div>
+        <nav>
+            <a href="index.html"><img class="headerLogo" src="images/logo111.png" alt="chamber logo" width="200"></a>      
+            <div class="social">
+                <img class="facebook" src="images/fb-icon.png" alt="facebook icon" width="24" height="24">
+                <img class="linkdin" src="images/in-icon.png" alt="linkedin icon" width="24" height="24">
+            </div>
+            
+            <!-- Hamburguer Menu -->
 
-        <nav class="nav-links">
-            <div><a href="discover.html">Discover</a></div>
-            <div><a href="directory.html">Directory</a></div>
-            <div><a href="join.html">Join</a></div>
-            <div><a href="#">Contact</a></div>
+            <ul class="navigation">
+                <li><a class="ham" href="#"></a></li>
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a class="discoverbtn" href="discover.html">Discover</a></li>
+                <li><a class="directbtn" href="directory.html">Directory</a></li>
+                <li><a class="joinnbtn" href="join.html">Join</a></li>
+                <li><a class="contacttbtn" href="contact.html">Contact</a></li>
+            </ul> 
         </nav>
-
-        <div class="social-icons">
-            <a href="https://www.facebook.com"><img src="images/fb-icon.png" width="30px" height="30px" alt="Facebook icon"></a>
-            <a href="https://www.linkedin.com"><img src="images/in-icon.png" width="30px" height="30px" alt="Linkedin icon"></a>
-        </div>
-
-        <div class="display-date">
-            <p><span id="banner"></span> Today's date: <span id="wk-day"></span>, <span id="date"></span> <span id="month"></span>
-                <span id="year"></span></p>
-        </div>
+        <aside></aside>
+        
     </header>
 
-    <main class="home">
+    <main>
+        <!-- Hero -->
+        <div class="hero">                           
+            <img class="heroImg" src="images/hero-img.jpg" alt="BizConnect Board">
+            <h1 class="heroP">Welcome to BizConnect</h1>
+            <div class="callToAction">
+                <a class="heroBtn" href="join.html">Join the chamber</a>
+            </div>
+        </div>
+        <!-- Events -->
         <div class="events">
-            <p>Events</p>
-            <img src="images/placeholder6.png" alt="Photo">
-        </div>
-
-        <div class="hero">
-            <picture>
-                <!-- <source media="(max-width: 400px)" srcset="images/wdd-img400w-450h.webp"> -->
-                <source media="(max-width: 600px)" srcset="images/wdd-img750w-800h.webp">
-                <source media="(max-width: 800px)" srcset="images/wdd-img800w-850h.webp">
-                <source media="(min-width: 990px)" srcset="images/wdd-img1200w-1050h.webp">
-                <!-- <img src="images/wdd-img1068w-850h.webp" alt="The Hero Photo"> -->
-                <img src="images/wdd-img1200w-1050h.webp" alt="The Hero Photo">
-            </picture>
-
-
-            <!-- <img src="images/cityimg3.jpg" alt="Photo"> -->
-            <!-- <img srcset="images/wdd230-small-img.webp 400w,
-                        images/wdd230-medium-img.webp 600w,
-                        images/wdd230-img-default.webp 800w"
-                sizes="(max-width: 500px) 400px,
-                        (max-width: 700px) 600px,
-                        800px"
-                src="images/wdd230-img-default.webp"
-                alt="The Hero Photo"> -->
-
-            <section class="welcome">
-                <h1>Welcome to BizConnect</h1>
-            </section>
-            
-            <!-- <h2>Join the Chamber</h2> -->
-            <h3 class="join-btn"><a href="#">Join the Chamber</a></h3>
+            <p><a href="https://openweathermap.org/" style="text-decoration: none;">Weather Info from OpenWeather</a></p>
+            <h1>Ribbon Cutting</h1>
+            <h2>💎 The Diamond Shack</h2>
+            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 pm.</p>
+            <a href="#">More Info...</a>
             
         </div>
 
-        <article class="spotlight">
-            <div class="spotlight1">
-                <p>Spotlight1</p>
-                <img src="images/placeholder3.png" alt="Photo">
+        <!-- Weather -->
+        <div class="localWthr">
+            <h1 class="weather">Weather</h1>
+            <div class="weatherIcon">
+                <img src="" alt="" id="weathericon" />
             </div>
-            <div class="spotlight2">
-                <p>Spotlight2</p>
-                <img src="images/placeholder4.png" alt="Photo">
-            </div>
-            <div class="spotlight3">
-                <p>Spotlight3</p>
-                <img src="images/placeholder5.png" alt="Photo">
-            </div>
-        </article>
-
-        <div class="weather">
-            <h2 class="weather-text">Weather</h2>
-            <p class="weather-info"><img src="" alt="" id="weathericon" />
-                <span class="weather-temp"> <span class="current-temp"></span> &deg;C</span></p>
-            <h3 class="weather-desc"></h3>
+            <!-- <span class="degree"> <span class="temp"></span> &deg;C</span> -->
+            <p class="degree"><span class="temp"></span>&#176;C</p>
+            <p class="description"></p>
+            <hr style="width:90%;text-align:center;">
+            <p class="windS">Wind Speed:</p>
+            <p class="windSpeed"></p>
+            <p class="windC">Wind Chill:</p>
+            <p class="windChill"></p>
+        </div> 
         
-            <hr>
-            <div class="weather-details">
-                <p>Wind Speed: <span id="wind-speed"></span></p>
-                <p>Wind Chill: <span id="wind-chill"></span></p>
+        <!-- News -->
+        <div class="localNews">
+            <h1>News Release</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet urna id leo fringilla ornare at non augue. Morbi efficitur arcu nisl, nec posuere augue egestas eget. Nunc enim mi, vestibulum in nunc eu, cursus ultrices metus. Ut elit dui, blandit vitae lorem et, efficitur dapibus velit. Vivamus placerat tellus sed lobortis ornare. Vivamus malesuada pretium lobortis. Integer sit amet lacus vel nunc gravida suscipit. Duis nulla augue, consectetur nec libero et, varius cursus elit. Sed bibendum venenatis vestibulum.</p>
+        </div>
+
+        <!-- Spotlights -->
+        <div class="placeholder">
+            <div class="spotOne">
+            <h2>Veris</h2>
+            <img src="images/logo-img1.jpg" alt="company logo" width="50%">
+            <!-- <p><em>"We get it there for you"</em></p> -->
+            
+            <p>Centro Comercial Riocentro El Dorado</p>
+            <p>234 806 4327684</p>
+            <a href="https://www.veris.com.ec">www.veris.com.ec</a>
+            </div>
+
+            <div class="spotTwo">
+            <hr style="width:90%;text-align:center;">
+                <h2>Casa Laguna Real Estate</h2>
+                <img src="images/logo-img1.jpg" alt="company logo">
+                <p>Edificio La Previsora Piso 27, Of. 2.</p>
+                <p>(04)+3704790</p>
+                <a href="https://casalaguna.com.ec">casalaguna.com.ec</a>
+            </div>
+            <div class="spotThree">
+            
+            <hr style="width:90%;text-align:center;">
+                <h2>Naturissimo</h2>
+                <img src="images/logo-img1.jpg" alt="company logo">
+                <p>Piazza La Joya</p>
+                <p>(04) 500-0166</p>
+                <a href="https://www.naturissimo.com">www.naturissimo.com</a>
             </div>
         </div>
 
-        <div class="join">
-            <p>Join</p>
-            <img src="images/placeholder7.png" alt="Photo">
-        </div>
-
-        <div class="news-releases">
-            <p>News releases</p>
-            <img src="images/placeholder8.png" alt="Photo">
+        <!-- Join Us -->
+        <div class="joinUs">
+            <div class="joinUsBtn">
+                <a class="join" href="join.html">Join Us!</a>
+            </div>
+            <p class="joinText">Discover how to join the chamber of commerce and how it wil benfit your organization! </p>
         </div>
     </main>
 
     <footer>
-        <div class="footer-logo">
-            <img src="images/logo-2.PNG" alt="Company Logo">
-            <!-- <div class="footer-address-1"> -->
-            <div>
-                <h2>BizConnect Chamber of Commerce</h2>
-                <p>Union Bank Road</p>
-                <p>Aba Nigeria</p>
-            </div>
+        <div class="chamberInfo">
+            <img class="footerLogo" src="images/logo112.png" alt="chamber logo" width="109" height="122">
+            <p class="compName">BizConnect Chamber of Commerce</p>
+            <p class="address">Union Bank Road <br> Aba, Nigeria</p>
+            <p class="cntctInfo">info@bizconnect.org <br> TEL: +234 806 432 7684</p>
+            <a class="map" href=https://www.google.com/maps/place/Aba/@5.1167963,7.2969047,12z/data=!3m1!4b1!4m5!3m4!1s0x104299308f30fbf3:0x98345ebf0c8cbca1!8m2!3d5.1215877!4d7.3732655>📍 Location Map</a>
         </div>
-
-        <div class="footer-address2">
-            <p>info@bizconnect.com</p>
-            <p>+234 806 432 7684</p>
-            <p><img src="images/map-location.png" width="30px" height="30px" alt="map pointer">Map Location</p>
-            <p><a href="https://openweathermap.org/">OpenWeather</a></p>
-        </div>
-
-        <div class="base">
-            <hr>
-            <span>&copy; <span id="©"></span></span>
-            <span> | Joseph Z. Anucha | </span>
-            <span>Brigham Young University - Idaho | WDD 230 Project | </span>
-            <span>Last modification: <span id="datemodified"></span></span>
-        </div>
+        <hr style="width:90%;text-align:center;">
+        <div class="authoredInfo">
+            <p><span class="currentyear">© 2022 Joseph Z. Anucha </span></p>
+            <p><span class="bar">|</span></p>  
+            <p><span class="name">Brigham Young University - Idaho</span></p>
+            <p><span class="bar1">|</span></p>
+            <p>WDD 230 Project</p>
+            <p><span class="bar2">|</span></p>
+            <div id="lastUpdate"></div>
+            <script>
+              document.querySelector(
+                "#lastUpdate"
+              ).textContent = `Last Update: ${document.lastModified}`;
+              </script>
+         </div>      
     </footer>
-    <script src="js/chamber.js"></script>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/spotlight1.js"></script>
     <script src="js/windchill.js"></script>
+
+<iframe src="about:blank" style="display: none;"></iframe>
 </body>
 </html>

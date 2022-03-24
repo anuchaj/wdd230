@@ -1,115 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-        <title>Join | BIZCONNECT</title>
+    <head>
+        <!-- Meta Files -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Assignment portal for Joseph Anucha in WDD 230: 
-        Web Frontend Development at Brigham Young University - Idaho">
-        <link rel="shortcut icon" href="images/logo-img.webp">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="css/chamber-pro.css"/>
-        <!-- <link rel="stylesheet" href="css/large.css"/> -->
-        <!-- <link rel="stylesheet" href="css/medium.css"/> -->
-        <!-- <link rel="stylesheet" href="css/small.css"/>-->
-  </head>
+        <meta name="description" content="BizConnect Chamber of Commerce">
+    
+        <!-- Site Icon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- <link rel="shortcut icon" href="images/logo-img.webp">-->
+    
+        <!-- CSS Files -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/medium.css"/>
+        <link rel="stylesheet" href="css/large.css"/>
+        <link rel="stylesheet" href="css/join.css">
+        <!-- <link rel="stylesheet" href="css/lazyload.css"> -->
+    
+        <!-- Pre load other related pages -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Title -->
+        <title>BizConnect Chamber of Commerce</title>
+    </head>
 
-  <body>
-        <header>
-            <div class="company-logo">
-                <a href="index.html"><img src="images/logo-1.PNG" alt="Our Logo"/></a>
-            </div>
+<body>
+  <div id="banner">
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+  </div>
+  <header>
+      <nav>
+          <a href="index.html"><img class="headerLogo" src="images/logo111.png" alt="chamber logo" width="100"></a>      
+          <div class="social">
+              <img class="facebook" src="images/fb-icon.png" alt="facebook icon" width="24" height="24">
+              <img class="linkdin" src="images/in-icon.png" alt="linkedin icon" width="24" height="24">
+          </div>
+          
+          <!-- Hamburguer Menu -->
 
-            <nav class="nav-links">
-                <div><a href="discover.html">Discover</a></div>
-                <div><a href="#">Directory</a></div>
-                <div><a class="active" href="join.html">Join</a></div>
-                <div><a href="#">Contact</a></div>
-            </nav>
+          <ul class="navigation">
+              <li><a class="ham" href="#"></a></li>
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a class="discoverbtn" href="discover.html">Discover</a></li>
+                <li><a class="directbtn" href="directory.html">Directory</a></li>
+                <li><a class="joinnbtn" href="join.html">Join</a></li>
+                <li><a class="contacttbtn" href="contact.html">Contact</a></li>
+          </ul> 
+      </nav>
+      <aside></aside>
+      
+  </header>
 
-            <div class="social-icons">
-                <a href="https://www.facebook.com"><img src="images/fb-icon.png" width="30px" height="30px" alt="Facebook icon"></a>
-                <a href="https://www.linkedin.com"><img src="images/in-icon.png" width="30px" height="30px" alt="Linkedin icon"></a>
-            </div>
-
-            <div class="display-date">
-                <p><span id="banner"></span> Today's date: <span id="wk-day"></span>, <span id="date"></span> <span id="month"></span>
-                <span id="year"></span></p>
-            </div>
-        </header>
-
-    <!-- CONTENT HERE -->
-        <main class="join-page">
-            <h1>BizConnect Chamber Application</h1>
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Application information</legend>
-                    <label class="top">First name*<input type="text" name="fname" required></label>
-                    <label class="top">Last name*<input type="text" name="lname" required></label>
-                    <label class="top">Phone <input type="tel"name="phone" placeholder="123456789"></label>
-                    <label class="top">Email*<input type="email"name="email" placeholder="somoene@gmail.com"required></label>
-                    <label class="top">Website<input type="url"name="url" placeholder="http://"></label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Course Information</legend>
-                    <div>Audience</div>
-                    <label class="sbs"><input type="radio" name="audience" value="beginer"> Beginer</label>
-                    <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-                    <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
-                    <div>Software Needed</div>
-                    <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
-                    <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
-                    <label class="sbs"><input type="checkbox" name="process" value="yes"> Processor</label>
-                    <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
-
-                </fieldset>
-                <fieldset>
-                    <legend>Funding</legend>
-                    <label class="top">Anticipated completion date <input type="date" name="completeDate"</label>
-                    <label class="top">
-                        Course Subject 
-                        <select name="subject">
-                        <option value="">Please select &#9662;</option>
-                        <option value="software">Software Development</option>
-                        <option value="creative">Creative Professional</option>
-                        <option value="construction"> Construction</option>
-                        </select>
-                    </label>
-                    <label class="top">How many authors? <input type="number" name="authors"</label>
-                </fieldset>
-                    <input type="submit" value="Join BizConnect" class="submitBtn">
-            </form>  
-            
-        </main>
-
-        <footer>
-            <div class="footer-logo">
-                <img src="images/logo-2.PNG" alt="Company Logo">
-                <!-- <div class="footer-address-1"> -->
-                <div>
-                    <h2>BizConnect Chamber of Commerce</h2>
-                    <p>Union Bank Road</p>
-                    <p>Aba Nigeria</p>
+  <main class="join">
+    <h1>Join the Chamber of Commerce</h1>
+        <form method="get" action="thankyou.html">
+          <div class="form">
+            <fieldset class="pi">
+                <legend>Personal Information</legend>
+                <label class="info">First Name* <input type="text" name="fname" required></label>
+                <label class="info">Last Name* <input type="text" name="lname" required></label>
+                <label class="info">Title <input type="text" name="title" pattern="([\p{L}\s-]){7,}" placeholder="Position" ></label>
+                <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Phone* <input type="tel" name="phone" placeholder="(000) 000-0000" required></label>
+            </fieldset>
+            <fieldset class="bi">
+                <legend>Business Information</legend>
+                <label class="info">Business Name* <input type="text" name="bName" required></label>
+                <label class="info">Business Description<textarea name="description" placeholder="Brief description of business"></textarea></label>   
+                <input type="hidden" name="datetime" id="todayDate">
+            </fieldset>
+            <fieldset class="ml">
+                <legend>Membership Level</legend>
+                <label class="level"><input type="radio" name="level" value="NP" required> NP Membership</label>
+                <label class="level"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+                <label class="level"><input type="radio" name="level" value="silver"> Silver Membership</label>
+                <label class="level"><input type="radio" name="level" value="gold"> Gold Membership</label>
+            </fieldset>
+            <aside>
+                <div class="benefits">
+                    <h2>Membership Benefits</h2>
+                    <h3>🏅 NP Membership</h3>
+                    <ul>
+                        <li>No fee</li>
+                        <li>Business listing in our directory</li>
+                        <li>Email to receive notifications all about chamber</li>
+                    </ul>
+                    <h3>🥉 Bronze Membership</h3>
+                    <ul>
+                        <li>Annual cost: $50</li>
+                        <li>Business listing in our directory</li>
+                        <li>Add credibility to your business</li>
+                        <li>Company spotlight on our website</li>
+                        <li>Email to receive notifications all about chamber</li>
+                    </ul>
+                    <h3>🥈 Silver Membership</h3>
+                    <ul>
+                        <li>Annual Cost: $100</li>
+                        <li>Business listing in our directory</li>
+                        <li>Add credibility to your business</li>
+                        <li>Company spotlight on our website</li>
+                        <li>Build awareness of your business through cost-effective advertising</li>
+                    </ul>
+                    <h3>🥇 Gold Membership</h3>
+                        <ul>
+                            <li>Annual Cost: $200</li>
+                            <li>Business listing in our directory</li>
+                            <li>Add credibility to your business</li>
+                            <li>Company spotlight on our website</li>
+                            <li>Build awareness of your business through cost-effective advertising</li>
+                            <li>Access to resources, discounts, and relationships</li>
+                            <li>Attend educational and training workshops</li>
+                        </ul>
                 </div>
-            </div>
+            </aside>
+          </div>
+            <label class="submit"><input type="submit" value="Join Now"  class="submitBtn"></label>
+        </form>
     
-            <div class="footer-address2">
-                <p>info@bizconnect.com</p>
-                <p>+234 806 432 7684</p>
-                <p><img src="images/map-location.png" width="30px" height="30px" alt="map pointer">Map Location</p>
-            </div>
-    
-            <div class="base">
-                <hr>
-                <span>&copy; <span id="©"></span></span>
-                <span> | Joseph Z. Anucha | </span>
-                <span>Brigham Young University - Idaho | WDD 230 Project | </span>
-                <span>Last modification: <span id="datemodified"></span></span>
-            </div>
-        </footer>
-        <script src="js/chamber.js"></script>
-        <script src="js/localstorage.js"></script>
-    </body>
+  </main>
+
+
+  <footer>
+    <div class="chamberInfo">
+        <img class="footerLogo" src="images/logo112.png" alt="chamber logo" width="109" height="122">
+        <p class="compName">BizConect Chamber of Commerce</p>
+        <p class="address">Union Bank Junction. <br> Aba, Nigeria </p>
+        <p class="cntctInfo">info@bizconnect.org <br> TEL: +593 4 2596100</p>
+        <a class="map" href=https://www.google.com/maps/place/Aba/@5.1167963,7.2969047,12z/data=!3m1!4b1!4m5!3m4!1s0x104299308f30fbf3:0x98345ebf0c8cbca1!8m2!3d5.1215877!4d7.3732655>📍 Location Map</a>
+    </div>
+    <hr style="width:90%;text-align:center;">
+    <div class="authoredInfo">
+        <p><span class="currentyear">© 2022 BizConect Chamber of Commerce</span></p>
+        <p><span class="bar">|</span></p>  
+        <p><span class="name">Joseph Anucha</span></p>
+        <p><span class="bar1">|</span></p>
+        <p>WDD 230 Project</p>
+        <p><span class="bar2">|</span></p>
+        <div id="lastUpdate"></div>
+        <script>
+          document.querySelector(
+            "#lastUpdate"
+          ).textContent = `Last Update: ${document.lastModified}`;
+          </script>
+     </div>      
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="js/visit.js"></script>
+</body>
+  
 </html>

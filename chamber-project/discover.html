@@ -1,125 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-        <title>Discover | BIZCONNECT</title>
+    <head>
+        <!-- Meta Files -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Assignment portal for Joseph Anucha in WDD 230: 
-        Web Frontend Development at Brigham Young University - Idaho">
-        <link rel="shortcut icon" href="images/logo-img.webp">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="css/chamber-pro.css"/>
-  </head>
+        <meta name="description" content="BizConnect Chamber of Commerce">
 
-  <body>
-        <header>
-            <div class="company-logo">
-                <a href="index.html"><img src="images/logo-1.PNG" alt="Our Logo"/></a>
-            </div>
+        <!-- Site Icon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- <link rel="shortcut icon" href="images/logo-img.webp">-->
 
-            <nav class="nav-links">
-                <div><a class="active" href="discover.html">Discover</a></div>
-                <div><a href="directory.html">Directory</a></div>
-                <div><a href="join.html">Join</a></div>
-                <div><a href="#">Contact</a></div>
-            </nav>
+        <!-- CSS Files -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/medium.css"/>
+        <link rel="stylesheet" href="css/large.css"/>
+        <link rel="stylesheet" href="css/lazyload.css"/>
 
-            <div class="social-icons">
-                <a href="https://www.facebook.com"><img src="images/fb-icon.png" width="30px" height="30px" alt="Facebook icon"></a>
-                <a href="https://www.linkedin.com"><img src="images/in-icon.png" width="30px" height="30px" alt="Linkedin icon"></a>
-            </div>
+        <!-- Pre load other related pages -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 
-            <div class="display-date">
-                <p><span id="banner"></span> Today's date: <span id="wk-day"></span>, <span id="date"></span> <span id="month"></span>
-                <span id="year"></span></p>
-            </div>
-        </header>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Title -->
+        <title>BizConnect Chamber of Commerce</title>
+    </head>
 
-        <div class="discover-page">
-            <h1>Discover Page</h1>
-            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-            <hr>
+<body>
+  <div id="banner">
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+  </div>
+  <header>
+      <nav>
+          <a href="index.html"><img class="headerLogo" src="images/logo111.png" alt="chamber logo" width="100"></a>      
+          <div class="social">
+              <img class="facebook" src="images/fb-icon.png" alt="facebook icon" width="24" height="24">
+              <img class="linkdin" src="images/in-icon.png" alt="linkedin icon" width="24" height="24">
+          </div>
+          
+          <!-- Hamburguer Menu -->
 
-            <picture>
-                <img src="images/placeholder1.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-400,h-300" alt="placeholder one" width="400" height="300">
-                <h2>Aba Sports Club</h2>
-            </picture>
+          <ul class="navigation">
+              <li><a class="ham" href="#"></a></li>
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a class="discoverbtn" href="discover.html">Discover</a></li>
+                <li><a class="directbtn" href="directory.html">Directory</a></li>
+                <li><a class="joinnbtn" href="join.html">Join</a></li>
+                <li><a class="contacttbtn" href="contact.html">Contact</a></li>
+          </ul> 
+      </nav>
+      <aside></aside>
+      
+  </header>
 
-            <picture>
-                <img src="images/placeholder2.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image5.jpeg?tr=w-400,h-300" alt="placeholder two" width="400" height="300">
-                <h2>Abia Hotels LTD</h2>
-            </picture>
+  <main class="discover">
+    <h1 class="discoverTitle">Meet Aba</h1>
 
-            <picture>
-                <img src="images/placeholder3.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image6.jpeg?tr=w-400,h-300" alt="placeholder three" width="400" height="300">
-                <h2>The Young Shall Grow motto park</h2>
-            </picture>
+    <div class="sunset">
+      <img src="images/500x300.png" data-src="images/sunset.jpg" alt="Sunset">
+      <div class="container">
+      <p>Sunset at Aba is one of the most beautiful things you will see here.</p>
+      </div>
+    </div>
 
-            <picture>
-                <img src="images/placeholder4.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image7.jpeg?tr=w-400,h-300" alt="placeholder four" width="400" height="300">
-                <h2>International Market</h2>
-            </picture>
+    <div class="church">
+      <img src="images/500x300.png" data-src="images/church.jpg" alt="Church LDS">
+      <div class="container">
+      <p>You can find many places to show your devotion to God.</p>
+      </div>
+    </div>
 
-            <picture>
-                <img src="images/placeholder5.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image8.jpeg?tr=w-400,h-300"  alt="placeholder five" width="400" height="300">
-                <h2>Shopping Center</h2>
-            </picture>
+    <div class="restaurants">
+      <img src="images/500x300.png" data-src="images/restaurants.jpg" alt="Restaurants">
+      <div class="container">
+      <p>We know, you know, everyone knows that places to eat is very important, and Aba knows that, so you are able to enjoy different meals in very amazing spots over the whole town.</p>
+      </div>
+    </div>
 
-            <picture>
-                <img src="images/placeholder6.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image9.jpeg?tr=w-400,h-300" alt="placeholder six" width="400" height="300">
-                <h2>Market Square</h2>
-            </picture>
+    <div class="food">
+      <img src="images/500x300.png" data-src="images/food.jpg" alt="Food">
+      <div class="container">
+      <p>The place is not the only important thing to eat, the food too, and it's good as the places you can eat.</p>
+      </div>
+    </div>
 
-            <picture>
-                <img src="images/placeholder7.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image10.jpeg?tr=w-400,h-300" alt="placeholder seve" width="400" height="300">
-                <h2>Crunchies Chicken Fries</h2>
-            </picture>
+    <div class="offices">
+      <img src="images/500x300.png" data-src="images/ofices.jpg" alt="Offices">
+      <div class="container">
+      <p>Daule is known as a growing town, offices are growing too in the zone, the best of all, you have an amazing landscape with a look to the Daule's River.</p>
+      </div>
+    </div>
 
-            <picture>
-                <img src="images/placeholder8.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image1.jpeg?tr=w-400,h-300" alt="placeholder eight" width="400" height="300">
-                <h2>State Mall</h2>
-            </picture>
+    <div class="cc">
+      <img src="images/500x300.png" data-src="images/cc.jpg" alt="Mall">
+      <div class="container">
+      <p>Malls are really necessary in our days, and this one specially because it will be one of the biggest one in South America!</p>
+      </div>
+    </div>
 
-            <picture>
-                <img src="images/placeholder9.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image2.jpeg?tr=w-400,h-300" alt="placeholder nine" width="400" height="300">
-                <h2>Oil Mill</h2>
-            </picture>
+    <div class="plaza">
+      <img src="images/500x300.png" data-src="images/plaza.jpg" alt="Plaza">
+      <div class="container">
+      <p>If you are low of time, plaza are a better options than malls searching for parking lots and that kind of things. Plaza makes your life easier!</p>
+      </div>
+    </div>
 
-            <picture>
-                <img src="images/placeholder10.png" class="lazy" data-src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-400,h-300" alt="placeholder ten" width="400" height="300">
-                <h2>State University</h2>
-            </picture>
-        </div>
+    <div class="night">
+      <img src="images/300x500.png" data-src="images/night.jpg" alt="Night">
+      <div class="container">
+      <p>To be honest, night activity you will only find on weekends, on weekdays you won't, but still look awesome during the night.</p>
+      </div>
+    </div>
+
+    <div class="theater">
+      <img src="images/300x500.png" data-src="images/theater.jpg" alt="Theater">
+      <div class="container">
+      <p>Cutural things can't be missed here, performances are scheduled during the whole year.</p>
+      </div>
+    </div>
+
+    <p id="lastvisit" class="visitlast"></p>
+  </main>
 
 
-        <footer>
-            <div class="footer-logo">
-                <img src="images/logo-2.PNG" alt="Company Logo">
-                <!-- <div class="footer-address-1"> -->
-                <div>
-                    <h2>BizConnect Chamber of Commerce</h2>
-                    <p>Union Bank Road</p>
-                    <p>Aba Nigeria</p>
-                </div>
-            </div>
-    
-            <div class="footer-address2">
-                <p>info@bizconnect.com</p>
-                <p>+234 806 432 7684</p>
-                <p><img src="images/map-location.png" width="30px" height="30px" alt="map pointer">Map Location</p>
-            </div>
-    
-            <div class="base">
-                <hr>
-                <span>&copy; <span id="©"></span></span>
-                <span> | Joseph Z. Anucha | </span>
-                <span>Brigham Young University - Idaho | WDD 230 Project | </span>
-                <span>Last modification: <span id="datemodified"></span></span>
-            </div>
-        </footer>
-        <script src="js/chamber.js"></script>
-        <script src="js/discover.js"></script>
-        <script src="js/localstorage.js"></script>
-    </body>
+  <footer>
+    <div class="chamberInfo">
+        <img class="footerLogo" src="images/logo112.png" alt="chamber logo" width="109" height="122">
+        <p class="compName">BizConnect Chamber of Commerce</p>
+        <p class="address">Union Bank <br> Aba, Nigeria </p>
+        <p class="cntctInfo">info@bizconnect.org <br> PBX: +593 4 2596100</p>
+        <a class="map" href=https://www.google.com/maps/place/Aba/@5.1167963,7.2969047,12z/data=!3m1!4b1!4m5!3m4!1s0x104299308f30fbf3:0x98345ebf0c8cbca1!8m2!3d5.1215877!4d7.3732655>📍 Location Map</a>
+    </div>
+    <hr style="width:90%;text-align:center;">
+    <div class="authoredInfo">
+        <p><span class="currentyear">© 2022 BizConnect Chamber of Commerce</span></p>
+        <p><span class="bar">|</span></p>  
+        <p><span class="name">Joseph Anucha</span></p>
+        <p><span class="bar1">|</span></p>
+        <p>WDD 230 Project</p>
+        <p><span class="bar2">|</span></p>
+        <div id="lastUpdate"></div>
+        <script>
+          document.querySelector(
+            "#lastUpdate"
+          ).textContent = `Last Update: ${document.lastModified}`;
+          </script>
+     </div>      
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="js/visit.js"></script>
+</body>
+  
 </html>
