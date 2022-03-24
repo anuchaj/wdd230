@@ -21,6 +21,8 @@ main {
 h1 {
   margin-bottom: 0;
   text-align: center;
+  color: rgb(2, 24, 44);
+  font-family: "Exo", "Merriweather Sans", sans-serif;
 }
 
 p {
@@ -289,5 +291,4 @@ button.open {
     text-align: right;
     margin-top: 0;
   }
-  
 }

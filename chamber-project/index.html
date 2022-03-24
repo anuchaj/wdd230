@@ -57,8 +57,13 @@
 
     <main>
         <!-- Hero -->
-        <div class="hero">                           
-            <img class="heroImg" src="images/hero-img.jpg" alt="BizConnect Board">
+        <div class="hero">
+            <picture>                        
+                <source srcset="images/hero_img_600.jpg" media="(max-width: 600px)">
+                <source srcset="images/heroimg.jpg" media="(max-width: 990px)">
+                <img class="heroImg" src="images/hero-img.jpg" alt="BizConnect Board">  
+            </picture>                         
+            <!-- <img class="heroImg" src="images/hero-img.jpg" alt="BizConnect Board"> -->
             <h1 class="heroP">Welcome to BizConnect</h1>
             <div class="callToAction">
                 <a class="heroBtn" href="join.html">Join the chamber</a>
@@ -100,9 +105,7 @@
         <div class="placeholder">
             <div class="spotOne">
             <h2>Veris</h2>
-            <img src="images/logo-img1.jpg" alt="company logo" width="50%">
-            <!-- <p><em>"We get it there for you"</em></p> -->
-            
+            <img src="images/logo-img1.jpg" alt="company logo" width="50%">            
             <p>Centro Comercial Riocentro El Dorado</p>
             <p>234 806 4327684</p>
             <a href="https://www.veris.com.ec">www.veris.com.ec</a>
@@ -116,8 +119,8 @@
                 <p>(04)+3704790</p>
                 <a href="https://casalaguna.com.ec">casalaguna.com.ec</a>
             </div>
+
             <div class="spotThree">
-            
             <hr style="width:90%;text-align:center;">
                 <h2>Naturissimo</h2>
                 <img src="images/logo-img1.jpg" alt="company logo">

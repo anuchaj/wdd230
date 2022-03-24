@@ -167,6 +167,11 @@ main div.events h1, div.localNews h1 {
   font-weight: 600;
 }
 
+#weatherIcon {
+  justify-self: center;
+  align-self: center;
+}
+
 /* News */
 .localNews {
   text-align: center;
@@ -311,7 +316,7 @@ body {
 
 footer {
   /* background-color: rgb(21, 28, 94); */
-  background: linear-gradient(to left, #d25252, rgb(21, 28, 94));
+  background: linear-gradient(to left, #08449e, rgb(53, 16, 1));
   margin-top: 20px;
 }
 

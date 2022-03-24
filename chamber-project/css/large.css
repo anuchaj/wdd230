@@ -202,67 +202,12 @@
   main .joinUs p{
     margin: 0;
   }
-
-	/* Discover Page */
-	/* main.discover {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 400px 400px 1fr;
-    margin: 0 auto;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .discoverTitle {
-    grid-column: 1/4;
-    grid-row: 1/2;
-  }
-
-  div.sunset {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-
-  div.church {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-
-  div.restaurants {
-    grid-column: 3/4;
-    grid-row: 2/3;
-  }
-
-  div.food {
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-
-  div.offices {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-
-  div.cc {
-    grid-column: 3/4;
-    grid-row: 3/4;
-  }
-
-  div.plaza {
-    grid-column: 1/2;
-    grid-row: 4/5;
-  }
-
-  div.night {
-    grid-column: 2/3;
-    grid-row: 4/5;
-  }
-
-  div.theater {
-    grid-column: 3/4;
-    grid-row: 4/5;
-  } */
 	
+  h1 {
+    font-family: "Exo", "Merriweather Sans", sans-serif;
+    color: rgb(1, 41, 56);
+  }
+
 	/* Footer Part */
 
 	footer div.chamberInfo {

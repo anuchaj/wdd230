@@ -40,20 +40,20 @@ function displaySpotlight(business, card) {  // Create elements to add to the do
     card.appendChild(p3);
   } 
 
-function findSpotlight(business) {  // Create elements to add to the document
+function findSpotlight(business) { 
     if ((business.membership != "Gold" && business.membership != "Silver") || spotFilled == 3)
         return;
     else {
         if (spotFilled == 0) {
-            let bizCard = document.querySelector('#spotlight1');
+            let bizCard = document.querySelector(".spotOne");
             displaySpotlight(business, bizCard);
         }
         if (spotFilled == 1) {
-            let bizCard = document.querySelector('#spotlight2');
+            let bizCard = document.querySelector(".spotTwo");
             displaySpotlight(business, bizCard);
         }
         if (spotFilled == 2) {
-            let bizCard = document.querySelector('#spotlight3');
+            let bizCard = document.querySelector(".spotThree");
             displaySpotlight(business, bizCard);
         }
         spotFilled++;
@@ -64,7 +64,7 @@ function findSpotlight(business) {  // Create elements to add to the document
 
   async function getSpotlight() {
     const response = await fetch(spotlightData);
-    var bizList = await response.json();
+    let bizList = await response.json();
     const shuffledList = bizList.sort((a, b) => 0.5 - Math.random());
     shuffledList.forEach(findSpotlight);
   }
