@@ -14,10 +14,9 @@ header {
 }
 
 /* Banner */
-
 #banner {
   background-color: #04316b;
-  color: black;
+  color: rgb(252, 247, 247);
   padding: 5px;
   font-size: 1.5rem;
   font-weight: 800;
