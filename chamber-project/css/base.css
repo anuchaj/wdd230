@@ -9,7 +9,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 header {
   padding: 10px;
   font-size: 12px;
-  background-color: rgb(217, 226, 233);
+  background-color: #100c08;
   margin-bottom: 25px;
 }
 
@@ -235,7 +235,7 @@ main div .spotTwo img {
 
 /* Hamburguer Menu*/
 nav {
-  background-color: rgb(43, 23, 4);
+  background-color: #290e05;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -315,7 +315,8 @@ body {
 
 footer {
   /* background-color: rgb(21, 28, 94); */
-  background: linear-gradient(to left, #08449e, rgb(53, 16, 1));
+  /* background: linear-gradient(to left, #08449e, rgb(53, 16, 1)); */
+  background-color: #290e05;
   margin-top: 20px;
 }
 

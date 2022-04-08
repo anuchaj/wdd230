@@ -1,0 +1,100 @@
+{
+  "business": [
+    {
+      "name": "Aba Nigeria Temple",
+      "address": "La Aurora, Av. León Febres Cordero",
+      "phone": "+593 99 181 4731",
+      "website": "komunidad.digital.ec",
+      "imageurl": "../images/aba-temple.jpeg",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Parfi Ingenieros Asociados",
+      "address": "Manzana Letra I, Solar 30-31",
+      "phone": "+593 99 996 2571",
+      "website": "parfi.com.ec",
+      "imageurl": "https://www.mycruiseship.info/media/fs/logos-comp/000321.jpg",
+      "membership": "Bronze"
+    },
+    {
+      "name": "TV Cable",
+      "address": "Eloy Alfaro N44 -406 y De las Higueras",
+      "phone": "+593 02 - 6002400",
+      "website": "www.xtrim.com.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/Xtrim.png",
+      "membership": "Silver"
+    },
+    {
+      "name": "Madeconst S.A",
+      "address": "El Transito, Solar 15 - 2 km 10.5 Vía Puntilla",
+      "phone": "+593 98 436 1376",
+      "website": "www.madeconst.com",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/tfc.png",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Mascotas",
+      "address": "El Dorado, Av León Febres Cordero",
+      "phone": "+593 99 181 4731",
+      "website": "mascotas.kom.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascotas.png",
+      "membership": "Silver"
+    },
+    {
+      "name": "Bodas",
+      "address": "Piazza La Joya - 1.5 km Vía Puntilla",
+      "phone": "+593 95 186 5199",
+      "website": "bodas.kom.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/bodas.png",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Inversiones by KD",
+      "address": "Villa Club - Nueva Plaza",
+      "phone": "+593 95 786 2453",
+      "website": "inversiones.kom.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/inversiones.png",
+      "membership": "Gold"
+    },
+    {
+      "name": "Sin Estrés",
+      "address": "Avalon Plaza, La Aurora",
+      "phone": "+593 98 896 713",
+      "website": "sin-estres.kom.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/sinestres.png",
+      "membership": "Silver"
+    },
+    {
+      "name": "Casa Laguna Real Estate",
+      "address": "Edificio La Previsora Piso 27, Of. 2.",
+      "phone": "(04)+3704790",
+      "website": "casalaguna.com.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/casalaguna.png",
+      "membership": "Gold"
+    },
+    {
+      "name": "Veris ",
+      "address": "Centro Comercial Riocentro El Dorado",
+      "phone": "600 9 600",
+      "website": "www.veris.com.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/veris.png",
+      "membership": "Silver"
+    },
+    {
+      "name": "Naturissimo",
+      "address": "Piazza La Joya",
+      "phone": "(04) 500-0166",
+      "website": "www.naturissimo.com",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/naturissimo1.png",
+      "membership": "Gold"
+    },
+    {
+      "name": "Prosegur",
+      "address": "Villa del Rey, Plaza Tía",
+      "phone": "+593 96 262 2324",
+      "website": "www.prosegur.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/prosegur.png",
+      "membership": "Bronze"
+    }
+  ]
+}
