@@ -22,6 +22,8 @@ function displayCard(templ) {
     let ordinance = document.createElement('p');
     let closure = document.createElement('p');
     let history = document.createElement('p');
+    let like = document.createElement('button');
+    like.classList.add('clickme');
 
   
     // Change the textContent property of the h2 element to contain the biz's full name
@@ -30,8 +32,9 @@ function displayCard(templ) {
     phoneNum.textContent = templ.phone;
     service.textContent = templ.service;
     ordinance.textContent = templ.ordinance;
-    closure.textContent = templ.closure;
+    closure.textContent = templ.closures;
     history.textContent = templ.history;
+    like.textContent = templ.like;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', templ.imageurl);
@@ -47,11 +50,20 @@ function displayCard(templ) {
     card.appendChild(closure);
     card.appendChild(history);
     card.appendChild(service);
+    card.appendChild(like);
     
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('#cards').appendChild(card);
   }
+
+
+let button1 = document.querySelector(".clickme");
+counter1 = 0;
+button1.onclick = function() {
+  counter1 += 1;
+  button1.innerHTML = "Like " + counter1;
+};
 
 
 function gridView() {
