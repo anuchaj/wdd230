@@ -50,7 +50,7 @@ No cafeteria available
 No patron housing available
 Distribution center nearby
 
-Media Gallery | Download Photo 
+
 Temple Closures
 2022
 Monday, 11 April 2022 - Monday, 4 July 2022
@@ -131,8 +131,7 @@ Dedicated — dedicatory prayer
 
 Aba Nigeria Temple
 Address
-72-80 Okpu-Umuobo Rd
-Aba
+72-80 Okpu-Umuobo Rd Aba 
 Abia State, Nigeria
 Telephone
 (234) 80-3903-4810
@@ -152,6 +151,7 @@ Temple Closures
 Friday, 8 April 2022
 Saturday, 20 August 2022
 Monday, 5 September 2022 - Monday, 2 January 2023
+
 Additional Information
 Family Ordinance Cards
 Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.

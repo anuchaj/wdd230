@@ -1,100 +1,64 @@
 {
-  "business": [
+  "temple": [
     {
       "name": "Aba Nigeria Temple",
-      "address": "La Aurora, Av. León Febres Cordero",
-      "phone": "+593 99 181 4731",
-      "website": "komunidad.digital.ec",
-      "imageurl": "../images/aba-temple.jpeg",
-      "membership": "Bronze"
+      "address": "72-80 Okpu-Umuobo Rd Aba Abia State, Nigeria",
+      "phone": "(234) 80-3903-4810",
+      "service": "Distribution center nearby",
+      "closures" : "Friday, 8 April 2022, Saturday, 20 August 2022, Monday, 5 September 2022 - Monday, 2 January 2023",
+      "ordinance" : "Schedule Appointment",
+      "history" : "2 April 2000 - Announced, 23 February 2002 - Groundbreaking, 7 August 2005 - Dedicated",
+      "imageurl": "https://anuchaj.github.io/wdd230/temple-project/images/aba-temple1.jpg" 
     },
     {
-      "name": "Parfi Ingenieros Asociados",
-      "address": "Manzana Letra I, Solar 30-31",
-      "phone": "+593 99 996 2571",
-      "website": "parfi.com.ec",
-      "imageurl": "https://www.mycruiseship.info/media/fs/logos-comp/000321.jpg",
-      "membership": "Bronze"
+      "name": "Provo City Center Temple",
+      "address": "50 South University Ave Provo UT 84601 United States",
+      "phone": "(1) 801-343-2700",
+      "service": "Distribution center nearby",
+      "closures" : "Monday, 20 June 2022 - Monday, 4 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Monday, 28 November 2022 - Monday, 12 December 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+      "ordinance" : "Schedule Appointment",
+      "history" : "1 October 2011 Announced, 12 May 2012 Groundbreaking, 20 March 2016 Dedicated",
+      "imageurl": "https://anuchaj.github.io/wdd230/temple-project/images/provo-temple1.jpg"
     },
     {
-      "name": "TV Cable",
-      "address": "Eloy Alfaro N44 -406 y De las Higueras",
-      "phone": "+593 02 - 6002400",
-      "website": "www.xtrim.com.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/Xtrim.png",
-      "membership": "Silver"
+      "name": "Salt Lake Temple",
+      "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
+      "phone": "(1) 801-343-2700",
+      "service": "Distribution center nearby",
+      "closures" : "Monday, 20 June 2022 - Monday, 4 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Monday, 28 November 2022 - Monday, 12 December 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+      "ordinance" : "Schedule Appointment",
+      "history" : "28 July 1847 Announced, 14 February 1853 Groundbreaking, 6 April 1893 Dedicated",
+      "imageurl": "https://anuchaj.github.io/wdd230/temple-project/images/slctemple1.jpg"
     },
     {
-      "name": "Madeconst S.A",
-      "address": "El Transito, Solar 15 - 2 km 10.5 Vía Puntilla",
-      "phone": "+593 98 436 1376",
-      "website": "www.madeconst.com",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/tfc.png",
-      "membership": "Bronze"
+      "name": "Rexburg Idaho Temple",
+      "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+      "phone": "(1) 208-656-0880",
+      "service": "Distribution center nearby",
+      "closures" : "Monday, 20 June 2022 - Monday, 4 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Monday, 28 November 2022 - Monday, 12 December 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+      "ordinance" : "Schedule Appointment",
+      "history" : "12 December 2003 Announced, 30 July 2005 Groundbreaking, 10 February 2008 Dedicated",
+      "imageurl": "https://anuchaj.github.io/wdd230/temple-project/images/rexburg-temple.jpg"
     },
     {
-      "name": "Mascotas",
-      "address": "El Dorado, Av León Febres Cordero",
-      "phone": "+593 99 181 4731",
-      "website": "mascotas.kom.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascotas.png",
-      "membership": "Silver"
+      "name": "Accra Ghana Temple",
+      "address": "57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra Ghana",
+      "phone": "(233) 302-650-123",
+      "service": "Distribution center nearby",
+      "closures" : "Friday, 8 April 2022, Saturday, 20 August 2022, Monday, 5 September 2022 - Monday, 2 January 2023",
+      "ordinance" : "Schedule Appointment",
+      "history" : "16 February 1998 Announced, 16 November 2001 Groundbreaking, 11 January 2004 Dedicated",
+      "imageurl": "https://anuchaj.github.io/wdd230/temple-project/images/accra-temple1.jpg"
     },
     {
-      "name": "Bodas",
-      "address": "Piazza La Joya - 1.5 km Vía Puntilla",
-      "phone": "+593 95 186 5199",
-      "website": "bodas.kom.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/bodas.png",
-      "membership": "Bronze"
-    },
-    {
-      "name": "Inversiones by KD",
-      "address": "Villa Club - Nueva Plaza",
-      "phone": "+593 95 786 2453",
-      "website": "inversiones.kom.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/inversiones.png",
-      "membership": "Gold"
-    },
-    {
-      "name": "Sin Estrés",
-      "address": "Avalon Plaza, La Aurora",
-      "phone": "+593 98 896 713",
-      "website": "sin-estres.kom.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/sinestres.png",
-      "membership": "Silver"
-    },
-    {
-      "name": "Casa Laguna Real Estate",
-      "address": "Edificio La Previsora Piso 27, Of. 2.",
-      "phone": "(04)+3704790",
-      "website": "casalaguna.com.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/casalaguna.png",
-      "membership": "Gold"
-    },
-    {
-      "name": "Veris ",
-      "address": "Centro Comercial Riocentro El Dorado",
-      "phone": "600 9 600",
-      "website": "www.veris.com.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/veris.png",
-      "membership": "Silver"
-    },
-    {
-      "name": "Naturissimo",
-      "address": "Piazza La Joya",
-      "phone": "(04) 500-0166",
-      "website": "www.naturissimo.com",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/naturissimo1.png",
-      "membership": "Gold"
-    },
-    {
-      "name": "Prosegur",
-      "address": "Villa del Rey, Plaza Tía",
-      "phone": "+593 96 262 2324",
-      "website": "www.prosegur.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/prosegur.png",
-      "membership": "Bronze"
+      "name": "Gilbert Arizona Temple",
+      "address": "3301 S Greenfield Rd Gilbert AZ 85297United States",
+      "phone": "(1) 480-822-5000",
+      "service": "Distribution center nearby",
+      "closures" : "Monday, 20 June 2022 - Monday, 4 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Monday, 28 November 2022 - Monday, 12 December 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+      "ordinance" : "Schedule Appointment",
+      "history" : "10 April 2008 Announced, 13 November 2010 Groundbreaking, 2 March 2014 Dedicated",
+      "imageurl": "https://anuchaj.github.io/wdd230/temple-project/images/arizona-temple1.jpg"
     }
   ]
 }
