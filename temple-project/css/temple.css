@@ -46,6 +46,15 @@ h1 {
   text-align: center;
 }
 
+#cards button {
+    background-color: rgb(21, 28, 94);
+    color: #ccc;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 0.1em;
+}
+
+
 button {
   text-align: center;
   text-decoration: none;

@@ -55,15 +55,14 @@ function displayCard(templ) {
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('#cards').appendChild(card);
+    
+    /* counter1 = 0;
+    like.onclick = function() {
+    counter1 += 1;
+    like.innerHTML = "Like " + counter1;
+    }; */
   }
 
-
-let button1 = document.querySelector(".clickme");
-counter1 = 0;
-button1.onclick = function() {
-  counter1 += 1;
-  button1.innerHTML = "Like " + counter1;
-};
 
 
 function gridView() {
