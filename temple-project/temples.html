@@ -35,13 +35,18 @@
             </div>
         </nav>
       
-      <div class="top-nav">
-        <a class="active" href="index.html">Home</a>
-        <a href="temples.html" target="_blank">Temples</a>
-        <a href="services.html" target="_blank">Services</a>
-        <a href="reservation.html" target="_blank">Reservation</a>
-        <input type="text" placeholder="Search...">
-      </div>
+        <div class="top-nav">
+          <a href="index.html">Home</a>
+          <a class="active" href="temples.html" target="_blank">Temples</a>
+          <!-- <a class="active" href="services.html" target="_blank">Services</a> -->
+          <a href="reservations.html" target="_blank">Reservation</a>
+          <label for="service-names">Services</label>
+          <select name="service-names" id="service-names">
+              <option value="reception">Reception</option>
+            <option value="missionary">Full-time Temple missionary</option>
+          </select>
+          <input type="text" placeholder="Search...">
+        </div>
 
     </header>
 

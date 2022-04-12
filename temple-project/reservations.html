@@ -35,24 +35,88 @@
         </nav>
       
       <div class="top-nav">
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="temples.html" target="_blank">Temples</a>
-        <a href="services.html" target="_blank">Services</a>
-        <a href="reservation.html" target="_blank">Reservation</a>
+        <!-- <a href="services.html" target="_blank">Services</a> -->
+        <a class="active" href="reservations.html" target="_blank">Reservation</a>
+        <label for="service-names">Services</label>
+        <select name="service-names" id="service-names">
+          <option value="reception">Reception</option>
+          <option value="missionary">Full-time Temple missionary</option>
+        </select>
         <input type="text" placeholder="Search...">
       </div>
 
     </header>
 
-    
-    <main class="directory">
-        <h1>Temples</h1>
-        <div id="directoryBttn">
-          <button id="grid" onclick="gridView()">᎒᎒᎒</button>
-          <button id="list" onclick="listView()">᎒☰</button>
-        </div>
-        <div id="cards"></div>
-      </main>
+
+    <main class="join">
+      <h1>Join the Chamber of Commerce</h1>
+          <form method="get" action="thankyou.html">
+            <div class="form">
+              <fieldset class="pi">
+                  <legend>Personal Information</legend>
+                  <label class="info">First Name* <input type="text" name="fname" required></label>
+                  <label class="info">Last Name* <input type="text" name="lname" required></label>
+                  <label class="info">Title <input type="text" name="title" pattern="([\p{L}\s-]){7,}" placeholder="Position" ></label>
+                  <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                  <label class="info">Phone* <input type="tel" name="phone" placeholder="(000) 000-0000" required></label>
+              </fieldset>
+              <fieldset class="bi">
+                  <legend>Business Information</legend>
+                  <label class="info">Business Name* <input type="text" name="bName" required></label>
+                  <label class="info">Business Description<textarea name="description" placeholder="Brief description of business"></textarea></label>   
+                  <input type="hidden" name="datetime" id="todayDate">
+              </fieldset>
+              <fieldset class="ml">
+                  <legend>Membership Level</legend>
+                  <label class="level"><input type="radio" name="level" value="NP" required> NP Membership</label>
+                  <label class="level"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+                  <label class="level"><input type="radio" name="level" value="silver"> Silver Membership</label>
+                  <label class="level"><input type="radio" name="level" value="gold"> Gold Membership</label>
+              </fieldset>
+              <!-- <aside>
+                  <div class="benefits">
+                      <h2>Membership Benefits</h2>
+                      <h3>🏅 NP Membership</h3>
+                      <ul>
+                          <li>No fee</li>
+                          <li>Business listing in our directory</li>
+                          <li>Email to receive notifications all about chamber</li>
+                      </ul>
+                      <h3>🥉 Bronze Membership</h3>
+                      <ul>
+                          <li>Annual cost: $50</li>
+                          <li>Business listing in our directory</li>
+                          <li>Add credibility to your business</li>
+                          <li>Company spotlight on our website</li>
+                          <li>Email to receive notifications all about chamber</li>
+                      </ul>
+                      <h3>🥈 Silver Membership</h3>
+                      <ul>
+                          <li>Annual Cost: $100</li>
+                          <li>Business listing in our directory</li>
+                          <li>Add credibility to your business</li>
+                          <li>Company spotlight on our website</li>
+                          <li>Build awareness of your business through cost-effective advertising</li>
+                      </ul>
+                      <h3>🥇 Gold Membership</h3>
+                          <ul>
+                              <li>Annual Cost: $200</li>
+                              <li>Business listing in our directory</li>
+                              <li>Add credibility to your business</li>
+                              <li>Company spotlight on our website</li>
+                              <li>Build awareness of your business through cost-effective advertising</li>
+                              <li>Access to resources, discounts, and relationships</li>
+                              <li>Attend educational and training workshops</li>
+                          </ul>
+                  </div>
+              </aside> -->
+            </div>
+              <label class="submit"><input type="submit" value="Join Now"  class="submitBtn"></label>
+          </form>
+      
+    </main>
   
     <footer>
       <p>&copy; <span id="currentyear"></span> TEMPLE INN AND SUITES - Joseph Anucha - WDD230 </p>
