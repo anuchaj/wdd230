@@ -1,0 +1,54 @@
+/* Joseph Anucha */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  background-color: white;
+  font-family: Roboto, Merriweather, sans-serif, Arial;
+}
+
+header {
+    background-color: rgb(181, 203, 212);
+    border-radius: 20px 20px 20px 20px;
+    list-style-type: none;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-left: 20px;
+    margin-top: 160px;
+}
+
+img {
+    margin-left: 10px;
+    box-shadow: 2px 2px #02223C;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+main h1 {
+    margin-bottom: 0px;
+}
+main p {
+    margin: 0 10px 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer p {
+    color: rgb(194, 212, 29);
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgb(49, 172, 221);
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
