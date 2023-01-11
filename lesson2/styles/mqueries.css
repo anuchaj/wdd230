@@ -1,0 +1,6 @@
+/* 'medium' media query section */
+@media screen and (max-width: 800px) {
+    #content {
+        display: block;
+    }
+}

@@ -1,9 +1,8 @@
 /* Joseph Anucha */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');*/
 body {
   background-color: white;
-  font-family: Roboto, Merriweather, sans-serif, Arial;
+  font-family: 'Merriweather', 'Roboto', 'Montserrat', sans-serif; 
 }
 
 header {
