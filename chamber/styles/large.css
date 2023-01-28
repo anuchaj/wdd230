@@ -1,0 +1,136 @@
+
+:root{
+    --main-color: #EFF6FB;
+    --second-color: #FFE2C2;
+    --third-color: #001D3D;
+    --accent-two: white;
+    --header-font: "Roboto", serif;
+    --paragraph-font: "Merriweather", sans-serif;
+}
+
+
+@media only screen and (min-width: 64rem){
+
+    /*Header section*/
+    header{
+        grid-template-columns: 1fr 30% 40% 1fr;
+    }
+
+    nav ul {
+        display: block;
+        background-color: transparent;
+        display: flex;
+        gap: 8%;
+        grid-column: 3;
+    }
+
+    h1{
+        font-size: 38px;
+    }
+
+
+    nav{
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    nav ul li a{
+        color: var(--main-color);
+        border: none;
+        font-size: 28px;
+    }
+
+    nav ul li a:hover{
+        background-color: transparent;
+        color: var(--second-color);
+    }
+
+    header button{
+        display: none;
+    }
+
+    header a img{
+        width: 40%;
+    }
+
+    header section {
+        grid-column: 4;
+        margin-left: 50%;
+    }
+
+    header .logo{
+        width: 50%;
+    }
+
+    /*main section*/
+
+    main{
+        grid-template-columns: 25% 50% 25%;
+        grid-template-areas: 1fr 1fr 1fr;
+        gap: 1rem;
+        column-gap: .5rem;
+    }
+    .spotlight p:nth-child(3){
+        display: block;
+    }
+
+    main section:nth-child(1){
+        grid-column: 2;
+        grid-row: 1 / span 2;
+
+    }   
+
+    main section:nth-child(2){
+        grid-column: 1 span 1;
+        grid-row: 1;
+    }
+
+     main section:nth-child(3){
+        grid-column: 1;
+        grid-row: 3;
+    }    
+
+    main section:nth-child(4){
+        grid-column: 1;
+        grid-row:2;
+    }
+
+    main section:nth-child(5){
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    main section:nth-child(6){
+        grid-row: 1 / span 3;
+        grid-column: 3;
+    }
+
+    .spotlight{
+        flex-direction: column;
+    }
+
+    .spotlight p{
+        width: 80%;
+    }
+
+    /* footer*/
+    footer h5{
+        font-size: 32px;
+        margin-top: 0;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+
+    .very-bottom{
+       display: flex;
+       justify-content: center;
+       align-content: center;
+    }
+    
+    .very-bottom p{
+        display: block;
+        font-size: 18px;
+    }
+    }
