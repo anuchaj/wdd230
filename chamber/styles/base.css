@@ -9,6 +9,11 @@
     --paragraph-font: "Merriweather", sans-serif;
 }
 
+/* banner */
+#banner {
+    text-align: center;
+}
+
 
 /*header and navigation code*/
 header {
@@ -19,6 +24,10 @@ header {
     color: white;
     font-family: 'Roboto';
 }
+
+/* .positioned {
+    position: fixed;
+}*/
 
 nav {
     display: grid;
