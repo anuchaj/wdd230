@@ -9,35 +9,73 @@
 }
 
 
-@media only screen and (min-width: 64rem){
-
-    /*Header section*/
-    header{
-        grid-template-columns: 1fr 30% 40% 1fr;
+@media only screen and (min-width: 60rem){
+    button {
+        display: none;
     }
 
-    nav ul {
-        display: block;
-        background-color: transparent;
+    .menu_bar {
+        display: grid;
+        grid-template-columns: 10% 30% 50% 10%;
+        margin: 0px 20px;
+    }
+
+    #hd-logo {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+        margin: auto;
+    }
+
+    .compName {
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        margin: auto 0px;
+    }
+
+    #compName_line1 {
+        margin: auto 0px;
+        font-size: 40px;
+        padding-left: 0px;
+    }
+    
+    #compName_line2 {
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+    #primaryLinks {
+        list-style-type: none;
         display: flex;
-        gap: 8%;
-        grid-column: 3;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: transparent;
+        color: white;
+        margin: 0px;
+        padding: 0px;
     }
 
-    h1{
-        font-size: 38px;
+    .bar_wide {
+        display: block;
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;
     }
 
-
-    nav{
-        grid-column: 3;
-        grid-row: 1;
+    .social_icons {
+        grid-column: 4 / 4;
+        grid-row: 1 / 1;
     }
 
     nav ul li a{
         color: var(--main-color);
         border: none;
-        font-size: 28px;
+        font-size: 20px;
+        width: 100%;
+    }
+    #primaryLinks li.active a {
+        background-color: var(--main-color);
+        color: var(--third-color);
+        text-transform: uppercase;
     }
 
     nav ul li a:hover{
@@ -45,22 +83,6 @@
         color: var(--second-color);
     }
 
-    header button{
-        display: none;
-    }
-
-    header a img{
-        width: 40%;
-    }
-
-    header section {
-        grid-column: 4;
-        margin-left: 50%;
-    }
-
-    header .logo{
-        width: 50%;
-    }
 
     /*main section*/
 

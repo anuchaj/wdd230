@@ -1,10 +1,72 @@
-@media only screen and (min-width: 38rem){
+@media only screen and (min-width: 36rem){
+    :root {
+        --main-color: #EFF6FB;
+        --second-color: #FFE2C2;
+        --third-color: #001D3D;
+        --accent-two: white;
+        --header-font: "Roboto", serif;
+        --paragraph-font: "Merriweather", sans-serif;
+    }
 
-    /*Header*/
-    a img{
-        width: 50%;
+
+    /*header and navigation code */
+    /*Banner*/
+    .banner {
+        background-color: var(--second-color);
+    }
+    .menu_bar {
+        display: grid;
+        grid-template-columns: 10% 10% 50% 1fr;
+        margin: 0px 20px;
+    }
+
+    .menu_btn {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+        margin: 0px;
     }
     
+    .bar_wide {display: none;}
+
+    #hd-logo {
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        margin: auto;
+    }
+
+    #hd-logo img {
+        width: 100%;
+    }
+
+    .compName {
+        grid-column: 3 / 3;
+        grid-row: 1 / 1;
+        margin: auto 0px;
+    }
+
+    .social_icons {
+        margin: 0px;
+        justify-content: flex-end;
+    }
+    
+    #hd-logo {
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+    }
+
+    #hd-logo a img {
+        margin-right: 0px;
+    }
+    
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: .3rem;
+        width: 20%;
+    }
+
+  
     /* main section with grid*/
     main{
         display: grid;
@@ -53,10 +115,11 @@
     
     
     
-    footer{display: grid;
-    grid-template-columns: 10% 55% 35%;
+    footer {
+        display: grid;
+        grid-template-columns: 10% 55% 35%;
     }
-    
+  
     footer p:nth-child(2){
         grid-column: 2 / 1;
     }
@@ -66,10 +129,10 @@
         grid-column: 1 / span 3;
         padding-top: 1rem;
     }
-    .very-bottom p {display: inline;
-    padding: .2rem;
+    .very-bottom p {
+        display: inline;
+        padding: .2rem;
     }
-    
     
     .very-bottom p:nth-child(3):before, .very-bottom p:nth-child(2):before{content:'|'}
     .very-bottom p:nth-child(3):after{content:'|'}

@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     
@@ -19,27 +19,51 @@
   </head>
 
   <body>
-    <div>
-        <p id="banner"></p>
-    </div>
-    <header class="positioned">
-        <a href="index.html" id="hd-logo"> <img src="images/logo-1.png" alt="Aba Chamber of Commerce Logo" class="logo"></a>
-        <h1>Aba Chamber of Commerce</h1>
-        <section><a href="https://www.facebook.com/"><img src="images/facebooklogo.png"></a>
-            <a href="https://www.linkedin.com/s"><img src="images/lilogo.png"></a></section>
+    <header>
+        <div class="banner">
+            <p id="banner_msg"></p>
+        </div>
 
-        <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <div class="menu_bar">
+            <div class="menu_btn">
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            </div>
+            
+            <a href="index.html" id="hd-logo"><img src="images/logo-1.png" alt="Aba Chamber of Commerce Logo"></a>
+            
+            <div class="compName">
+                <p id="compName_line1"><b>ABA</b></p>
+                <p id="compName_line2"> Chamber of Commerce </p>
+            </div>
+
+            <nav class="bar_wide">
+                <ul id="primaryLinks">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <section class="social_icons">
+                <a href="https://www.facebook.com/"><img src="images/fb-icon.png"></a>
+                <a href="https://www.linkedin.com/"><img src="images/in-icon.png"></a>
+            </section>
+        </div>
+
+        <nav class="nav_bar">
             <ul id="primaryNav">
+                <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Discover</a></li>
-                <li class="active"><a href="#">Directory</a></li>
+                <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>  
             </ul>
         </nav>
+
         <div class="date"></div>
     </header>
-
 
     <main>
         <section>
