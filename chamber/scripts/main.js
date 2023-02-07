@@ -1,18 +1,16 @@
+
 const day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][new Date().getDay()];
 const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
+  "July", "August", "September", "October", "November", "December"][new Date().getMonth()];
 
 let notification = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 
 if (day == "Monday" || day == "Tuesday") {
-  document.getElementById("banner").textContent = notification;
+  document.getElementById("banner_msg").textContent = notification;
 }
 
-
-const datefieldUK = document.querySelector(".date"); 
-
 const now = new Date();
+const datefieldUK = document.querySelector(".date"); 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
@@ -27,8 +25,8 @@ function toggleMenu(){
 const hamButton =document.querySelector('#hamburgerBtn');
 hamButton.onclick = toggleMenu;
 
-const date =  new Date().getFullYear();
 
+const date =  new Date().getFullYear();
 let lastMod = new Date(document.lastModified);
 var removeTZ = lastMod.toLocaleString();
 
