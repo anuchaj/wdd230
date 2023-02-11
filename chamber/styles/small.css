@@ -17,6 +17,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*header and navigation code */
 header {
+    /*background-image: url("../images/banner1.jpg");*/
     background-color: var(--third-color);
     display: grid;
     grid-template-columns: 1fr;

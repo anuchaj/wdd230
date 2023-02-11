@@ -1,4 +1,3 @@
-
 const day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][new Date().getDay()];
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"][new Date().getMonth()];
@@ -7,6 +6,8 @@ let notification = "🤝🏼 Come join us for the chamber meet and greet Wednesd
 
 if (day == "Monday" || day == "Tuesday") {
   document.getElementById("banner_msg").textContent = notification;
+} else {
+  document.getElementById("banner_msg").style.display = "none";
 }
 
 const now = new Date();
