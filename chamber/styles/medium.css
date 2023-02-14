@@ -1,13 +1,16 @@
-@media only screen and (min-width: 36rem){
-    :root {
-        --main-color: #EFF6FB;
-        --second-color: #FFE2C2;
-        --third-color: #001D3D;
-        --accent-two: white;
-        --header-font: "Roboto", serif;
-        --paragraph-font: "Merriweather", sans-serif;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,500&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
 
+:root {
+    --main-color: #EFF6FB;
+    --second-color: #FFE2C2;
+    --third-color: #001D3D;
+    --accent-two: #0E4749;
+    --header-font: "Lora", "Roboto", serif;
+    --paragraph-font: "Montserrat", "Open Sans", sans-serif;
+}
+
+
+@media only screen and (min-width: 36rem){
 
     /*header and navigation code */
     /*Banner*/
@@ -68,53 +71,116 @@
 
   
     /* main section with grid*/
-    main{
+    main {
         display: grid;
-        gap: 1rem;
-        margin: 2rem;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 60% 1fr;
+        margin-bottom: 1rem;
     }
-    .spotlight{
-        display: flex;
-        grid-row: 3 / span 1;
+
+    /* main div {
+        grid-gap: 5px;
+    }*/
+
+    /* Hero */
+    main .hero {
+        grid-column: 1/3;
+        margin: 0 auto;
     }
-    
-    .spotlight p{
-        width: 100%;
+
+    .heroBtn {
+        bottom: 2rem;
+        right: 2rem;
+        font-size: 1.5rem;
+        margin: 15px;
     }
-    
-    
-    main .join{
+
+    .welcome_txt {
+        font-size: 2.5rem;
+        margin: auto;
+        bottom: 1rem;
+    }
+
+    /* Events */
+    main .events {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    main .events a {
+        font-size: 1.2rem;
+    }
+
+    main .events p, h1, h2 {
+        margin: 0 5em 0 5em;
+        padding: 8px;
+        text-align: center;
+    }
+
+    /* Weather */
+    main .localWthr {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    /* News */
+    main .localNews {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    /* Spots */
+    main div.placeholder {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    main .placeholder div.spotOne h2, div.spotTwo h2, div.spotThree h2{
+    margin: auto;
+    }
+
+    .placeholder div.spotOne, .placeholder div.spotTwo {
+        margin: 0;
+    }
+
+    .placeholder hr {
+        display: none;
+    }
+
+    /* Join Us */
+    main .joinUs {
         display: block;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        text-align: center;
+        justify-content: center;
     }
     
-    main section:nth-child(2){
-        grid-row: 5 / span 1;
-        grid-column: 1 / 1;
-    
+    a.join_btn {
+        margin: .5rem .5rem;
+        background-color: var(--third-color); 
+        color: var(--main-color);
+        padding: .5rem .5rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        text-align: center;
+    }
+
+    p.joinText {
+        margin: 1rem .5rem;
+        text-align: center;
+        color: var(--third-color);
+    }
+
+    .joinUs a:hover {
+        background-color: #0E4749;
+        font-weight: bold;
     }
     
-    main section:nth-child(4){
-        grid-column: 2; 
-    }
-    
-    
-    main section:nth-child(5){
-        grid-row: 2;
-    }
-    
-    main section{
-        grid-column: 1 / span 2;
-    }
-    
-    /* footer time*/
-    footer h5, footer p{
-        text-align:left;
-        /* padding-left: 5%; */
-    }
-    
-    
-    
+    /* Here is the footer*/
     footer {
         display: grid;
         grid-template-columns: 10% 55% 35%;
@@ -124,6 +190,14 @@
         grid-column: 2 / 1;
     }
     
+    footer .logo{
+        display: block;
+        width: 100%;
+    }
+
+    footer section:nth-child(2) {
+        text-align: left;
+    }
     
     .very-bottom{
         grid-column: 1 / span 3;
