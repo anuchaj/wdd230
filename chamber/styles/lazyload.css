@@ -10,7 +10,18 @@ main.discover {
 .discover img {
   margin-top: 0;
   max-width: 300px;
+  transition: all .3s ease-in-out;
 }
+
+/*main.discover img[data-src] {
+  filter: blur(0.2em);
+}
+
+main.discover img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}*/
+
 
 main div {
   max-width: 300px;

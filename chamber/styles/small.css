@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,500&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,500&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
 
 :root {
     --main-color: #EFF6FB;
@@ -72,7 +72,7 @@ button#hamburgerBtn {
 
 #hd-logo img {
     width: 80px;
-    margin-right: auto 0px;
+    margin: auto 0px;
 }
 
 
