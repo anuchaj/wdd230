@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+
+table {
+    width: 350px;
+    margin: 100px;
+    box-shadow: 10px 15px 13px #bfb59b;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+thead,
+tr,
+th,
+td {
+    border: 1.9px solid rgb(190, 184, 184);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+th,
+td {
+    font-family: 'Ubuntu', 'Acme' sans-serif;
+    font-size: 1.2rem;
+}
+
+th {
+    color: white;
+    background-color: gray;
+    font-weight: bolder;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+tr {
+    background-color: #e7f0ed;
+}
+
+.empty_cell {
+    background-color: black;
+}
+
+b:only-child {
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #d4e7d9;
+}
+
+tfoot td {
+    font-size: 1rem;
+    background-color: ghostwhite;
+}
