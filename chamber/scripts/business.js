@@ -1,12 +1,12 @@
-//const requestURL = 'https://eduardomosquera.github.io/wdd230/chamber/data/data.json';
-const requestURL = "../data/companies.json";
+const requestURL = 'https://anuchaj.github.io/wdd230/chamber/data/companies.json';
+//const requestURL = "../data/companies.json";
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    const business = jsonObject['business'];
+    const business = jsonObject['companies'];
    
     business.forEach(displayCard);
   });
