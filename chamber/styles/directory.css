@@ -11,7 +11,7 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 350px;
   height: 300px;
-  margin: 1em auto;
+  margin: 1em .3em;
   padding: .75em 0;
   text-align: center;
   align-self: center;
@@ -119,10 +119,10 @@ button.open {
 
 #cards.open section {
   align-items: flex-start;
-  /*border: solid 1px #ccc;*/
-  margin: 0;
+  /*border: solid 1px #ccc;
+  margin: 0;*/
   width: 350px;
-  height: 120px;
+  height: 100px;
   padding: .75em 0;
   text-align: left;
   align-self: center;
@@ -144,11 +144,11 @@ button.open {
 }
 
 #cards.open section:nth-child(even) {
-  background-color: #ebecfd;
+  background-color: #BAD9B5;
 }
 
 #cards.open section:nth-child(odd) {
-  background-color: white;
+  background-color: #EFF7CF;
 }
 
 #cards.open section p:nth-child(2) {
@@ -240,12 +240,12 @@ button.open {
 @media only screen and (min-width: 60em) {
 
   #cards {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
   }
 
-  #grid {
+  /*#grid {
     margin-left: 42%;
-  }
+  }*/
 
   #cards.open {
     display: grid;
