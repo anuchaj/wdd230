@@ -39,7 +39,7 @@ form label.info input, form label.info textarea{
   padding: 5px 10px;
 }
 form label.info input:required {
-  border-left: 10px #d25252 solid;
+  border-left: 10px #ef520a solid;
 }
 form label.info textarea {
   height: 3rem;

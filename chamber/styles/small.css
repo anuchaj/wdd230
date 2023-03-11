@@ -328,7 +328,7 @@ main div.events h1, div.localNews h1 {
 
 .localWthr p.degree {
     font-size: 2.5rem;
-    color: #d25252;
+    color: #e85709;
     justify-self: center;
     align-self: center;
     font-weight: 600;
@@ -412,6 +412,7 @@ footer .logo{
 a.map, a.openWeather {
     text-decoration: none;
     color: white;
+    margin: 0px;
 }
 
 footer h5{
