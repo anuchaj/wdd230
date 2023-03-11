@@ -238,7 +238,7 @@ main .events {
 
 .events a {
     text-decoration: none;
-    color:#eb7d0e;
+    color:#834302;
 }
 .events a:hover {
     text-decoration: none;
@@ -328,7 +328,7 @@ main div.events h1, div.localNews h1 {
 
 .localWthr p.degree {
     font-size: 2.5rem;
-    color: #e85709;
+    color: #822f03;
     justify-self: center;
     align-self: center;
     font-weight: 600;
