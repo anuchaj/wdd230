@@ -97,7 +97,7 @@
 
     /*main section*/
 
-    main {
+    main.content {
 		position: relative;
 		display: grid;
 		grid-template-columns: 20em 1fr 20em;
