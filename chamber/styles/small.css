@@ -168,7 +168,7 @@ p, a{
 
 /* Here is the code for the main section */
 
-main .events, .localWthr, .localNews, .placeholder, .joinUs {
+main .events, .localWthr, .localNews, .spotlight, .joinUs {
     height: auto;
     padding: 1rem;
     background-color: rgb(246, 246, 246);
@@ -345,53 +345,30 @@ main div.events h1, div.localNews h1 {
 }
 
 /* Spots */
-main div.spotTwo, div.spotOne, div.spotThree {
+main div.spots {
     margin: 0;
     text-align: center;
     color: black;
+}
+
+section.spots {
+    text-align: center;
 }
 
 a {
     text-decoration: none;
 }
 
-main div.spotOne h2, div.spotTwo h2, div.spotThree h2 {
+main div.spots h2 {
     color: rgb(21, 28, 94);
 }
 
-/* -- Spottlight--- */
-
-#spotlight h6,
-#spotlight1 h6,
-#spotlight2 h6,
-#spotlight3 h6 {
-    display: none; 
-}
-
-.biz {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.biz img {
-    justify-self: center;
-    width: 50%;
-    margin-top: 3px;
-}
-
-.biz p {
-    padding: .1em;
-}
-
-#spotlight3 {
+section.spots:nth-child(3) {
     display: none;
 }
 
 /* Join Us - Sport Three hidden */
-.joinUs, .placeholder div.spotThree {
+.joinUs {
     display: none;
 }
 

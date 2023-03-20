@@ -138,7 +138,7 @@
         font-size: 2rem;
     }
 
-    main .events h2, .placeholder .spotOne h2, .spotTwo h2, .spotThree h2 {
+    main .events h2, .spotlight .spots h2 {
         font-size: 1rem;
     }
 
@@ -172,19 +172,25 @@
     }
 
 	/* Spots */
-    main .placeholder div.spotOne h2, div.spotTwo h2, div.spotThree h2 {
+    main .spotlight div.spots h2 {
         font-size: 24px;
         margin: auto;
     }
 
-	main .placeholder .spotOne p, .spotTwo p, .spotThree p {
+	main .spotlight .spots p {
 		padding: 0;
     }
 
-	main div.placeholder div.spotThree {
+    main .spotlight hr {
+        width: 90%;
+        text-align:center;
+    }
+
+	section.spots:nth-child(3) {
         display: block;
     }
-    main div.placeholder {
+
+    main div.spotlight {
         grid-column: 3/4;
         grid-row: 1/5;
         height: auto;
@@ -195,23 +201,23 @@
 		padding: 0;
     }
 
-    main div p.spotOne {
+    main div p.spots:nth-child(1) {
         grid-row: 1/2;
         height: auto;
     }
 
-    main div p.spotTwo {
+    main div p.spots:nth-child(2) {
         grid-row: 2/3;
         height: auto;
     }
 
-    main div p.spotThree {
+    main div p.spots:nth-child(3) {
         grid-row: 3/4;
         height: auto;
         width: auto;
     }
 
-    .placeholder hr {
+    .spotlight hr {
         display: block;
     }
 

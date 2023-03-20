@@ -129,7 +129,7 @@
     }
 
     /* Spots */
-    main div.placeholder {
+    main div.spotlight {
         grid-column: 1/3;
         grid-row: 3/4;
         display: grid;
@@ -137,15 +137,16 @@
         grid-template-rows: 1fr;
     }
 
-    main .placeholder div.spotOne h2, div.spotTwo h2, div.spotThree h2{
+    main .spotlight div.spots h2 {
     margin: auto;
     }
 
-    .placeholder div.spotOne, .placeholder div.spotTwo {
+
+    .spotlight div.spots:nth-child(1), .spotlight div.spots:nth-child(2) {
         margin: 0;
     }
 
-    .placeholder hr {
+    .spotlight hr {
         display: none;
     }
 
