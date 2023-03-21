@@ -15,7 +15,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     // document.querySelector(".current-temp").textContent = jsObject.list[0].main.temp; // made it my own instead of just "jsObject.main.temp"
-    console.log(jsObject);
+    //console.log(jsObject);
 
     const wind_speed = jsObject.list[0].wind.speed;
     const temp = jsObject.list[0].main.temp;
