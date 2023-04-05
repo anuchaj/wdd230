@@ -4,8 +4,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+div.logo_lg {
+    display: none;
+}
+
+
 h1, p {margin: 0 2vw;}
-nav button {
+button {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
@@ -14,7 +19,19 @@ nav button {
 }
 
 nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #eee;
+}
+
+#logo_sm {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+#hamburgerBtn {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
 }
 
 nav ul {
@@ -41,8 +58,15 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
-nav ul {display: none;}
-nav ul.open {display: block;}
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+    grid-column: 1 / 3;
+    grid-row: 2 / 2;
+}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}

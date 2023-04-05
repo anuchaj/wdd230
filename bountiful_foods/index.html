@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Fill Me In">
-        <meta name="author" content="John Doe">
+        <meta name="description" content="Bountiful site website">
+        <meta name="author" content="Joseph Anucha">
 
         <!-- Page title -->
         <title>Bountiful Foods</title>
@@ -24,20 +24,30 @@
     <body>
         <!-- HEADER HERE -->
         <header>
-            <div>
-                <img src="images/bf_logo.png" width="80px" height="80px" alt="logo"/>
+            <div class="logo_lg">
+                <a href="index.html" id="hd-logo">
+                    <img src="images/logo_bf.png" width="200px" height="100px" alt="logo"/>
+                    <!-- <picture>
+                        <source srcset="images/logo-1.png" media="(min-width: 400px)">
+                        <img src="images/logo-01.webp" alt="Aba Chamber of Commerce Logo">
+                    </picture>-->
+                </a>
             </div>
+    
+            <nav class="nav_links">
+                <a href="index.html" id="logo_sm">
+                    <img src="images/logo_bf.png" width="200px" height="100px" alt="logo"/>
+                </a>
 
-            <!-- NAVIGATION HERE -->
-            <nav>
-                <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
                 <ul id="primaryNav">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="fresh.html">Fresh</a></li>
                     <li><a href="about_us.html">About Us</a></li>   
                 </ul>
-            </nav>
 
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            </nav>
+    
         </header>
         
         
@@ -58,8 +68,13 @@
     <!-- FOOTER HERE -->   
         <footer>
             <p>&copy; 2023 &bull; Joseph Anucha &bull; +234 806-432-7684</p>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/"><img src="images/fb-icon.png" width="50" alt="Facebook Icon"></a>
+                <a href="https://www.linkedin.com/"><img src="images/in-icon.png" width="50" alt="Linked Icon"></a>
+                <a href="https://www.twitter.com/"><img src="images/twitter.png" width="50" alt="Twitter Icon"></a>
+            </div>
         </footer>
         
-        <script src="bfoods_main/scripts.js"></script>
+        <script src="scripts/bfoods_main.js"></script>
     </body>
 </html>
