@@ -4,7 +4,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-div.logo_lg {
+/* HEADER area */
+a#hd-logo {
     display: none;
 }
 
@@ -74,7 +75,12 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-
+/* MAIN area */
+main.content {
+    display: block;
+    margin: 2em;
+    height: auto;
+}
 
 
 
