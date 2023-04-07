@@ -172,7 +172,6 @@ button:hover {
     display: table;
 }
 
-
 /* Float reset and make drink buttons and add an equal width */
 .reset, .submitBtn {
     float: left;
@@ -191,6 +190,12 @@ div#drink_info {
     text-align: center;
 }
 
+
+/* ABOUT US PAGE */
+div#carlsbad_map {
+    margin: 2em auto;
+    text-align: center;
+}
 
 
 

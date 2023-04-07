@@ -51,49 +51,34 @@
         
     <!-- CONTENT HERE -->
         <main class="fresh_content">
-            <form class="fresh_form" method="post">
-                <div class="form_container">
-                    <h2>Make your drink</h2>
-                    <hr>
-                    <fieldset class="personal_info">
-                        <legend>Personal Information</legend>
-                        <label class="info">First Name* <input type="text" name="fname" required></label>
-                        <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label class="info">Phone* <input type="tel" name="phone" placeholder="(000) 000-0000" required></label>
-                    </fieldset>
+            <div class="hist_area_info">
+                <img src="images/carlsbad01.png" class="hist_area_info_1" width="400px" height="400px" alt="logo"/>
+                <p class="hist_area_info_2">Carlsbad is a city near San Diego, in California. It's known for Tamarack Surf Beach, 
+                    backed by the Carlsbad Sea Wall, and secluded South Carlsbad State Beach. The Legoland 
+                    California theme park includes rides, a water park and the SEA LIFE Aquarium. 
+                    The Flower Fields is a seasonal attraction, with acres of flowers. Set in a canyon, 
+                    the Leo Carrillo Ranch Historic Park is home to free-roaming peacocks.
+                </p>
 
-                    <fieldset class="fruits_choice">
-                        <legend>Select three fruits</legend>
-                        <input type="checkbox" id="fruit1" name="fruit1" value="fruit">
-                        <label for="fruit1">Fruit one</label><br>
+                <img src="images/fruit-juice02.jpg" class="hist_area_info_3" width="400px" height="400px" alt="logo"/>
+                <p class="hist_area_info_4">A team of highly trained staff professionally manages our production and quality 
+                    processes to ensure world-class products. We use the finest, farm-fresh vegetables, 
+                    fruits, and spices, and synthesise them to present the following culinary accompaniments.
+                </p>
 
-                        <input type="checkbox" id="fruit2" name="fruit2" value="fruit">
-                        <label for="fruit2">Fruit two</label><br>
-
-                        <input type="checkbox" id="fruit3" name="fruit3" value="fruit">
-                        <label for="fruit3">Fruit three</label><br><br>
-                    </fieldset>
-
-                    <fieldset class="instruction">
-                        <legend>Please include special instruction if any.</legend>
-                        <label class="info"><textarea name="description" placeholder="Brief instruction..."></textarea></label>   
-                        <input type="hidden" name="datetime" id="todayDate">
-                    </fieldset>
-                    
+                <img src="images/bakery02.jpg" class="hist_area_info_5" width="400px" height="400px" alt="logo"/>
+                <div class="hist_area_info_6">
+                    <h2>In order to preserve agricultural output, we make our sauces and pickles with farm-based produces</h2>
+                    <p>✅ Reducing wastage of farm produce</p>
+                    <p>✅ Continuous effort to maintain balance between environment and industry</p>
+                    <p>✅ In house cold-storage facility</p>
+                    <p>✅ Pulping facility for raw materials</p>
                 </div>
-                <!--<label class="submit"><input type="submit" value="Make drink"  class="submitBtn"></label>-->
-                <div class="clearfix">
-                    <!--<input type="reset" class="reset" value="Reset">-->
-                    <button type="reset" class="reset">Reset</button>
-                    <button type="button" onclick="document.getElementById('drink_info').style.display='block'" class="submitBtn">Make drink</button>
-                </div>
-            </form>
+                
+            </div>
 
-            <div id="drink_info">
-                <h2>Drink recipes</h2>
-                <h2>Drink contents</h2>
-                <h2>Drink recipes</h2>
-                <h2>Drink contents</h2>
+            <div id="carlsbad_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.70960426575!2d-117.35784268056264!3d33.12164373302356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA%2C%20USA!5e0!3m2!1sen!2sng!4v1680883019527!5m2!1sen!2sng" width="850" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         
         </main>
