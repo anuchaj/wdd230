@@ -4,19 +4,23 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/* HOMEPAGE */
 /* HEADER area */
 a#hd-logo {
     display: none;
 }
 
+h1, p {
+    margin: 0 2vw;
+}
 
-h1, p {margin: 0 2vw;}
-button {
+nav.nav_links button {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: white;
+    background-color: green;
 }
 
 nav {
@@ -82,6 +86,110 @@ main.content {
     height: auto;
 }
 
+/* MAIN IMAGE */
+div.main_img img {
+    width: 100%;
+}
+
+div.coast_area_section .coast img, 
+div.coast_area_section img {
+    width: 100%;
+}
+/* FOOTER */
+footer {
+    display: block;
+    text-align: center;
+}
+
+
+
+/* FRESH PAGE */
+.fresh_form {
+    background-color: #fefefe;
+    margin: 5% auto 2em auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Add padding to container elements */
+.form_container {
+    padding: 16px;
+}
+
+fieldset {
+    margin-top: 1.5em;
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+  
+  /* Add a background color when the inputs get focus */
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+  /* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Float reset and make drink buttons and add an equal width */
+.reset, .submitBtn {
+    float: left;
+    width: 50%;
+}
+
+/* Extra styles for the reset button */
+.reset {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+
+div#drink_info {
+    display: none;
+    margin: 2em auto;
+    text-align: center;
+}
 
 
 

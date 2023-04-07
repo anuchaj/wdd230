@@ -60,7 +60,6 @@
     div.main_img img {
         grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
         grid-row: 1;
-        width: 100%;
         border-radius: 0% 0% 5% 5%;
     }
     div.business_info {

@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Fill Me In">
-        <meta name="author" content="John Doe">
+        <meta name="description" content="Bountiful Foods website">
+        <meta name="author" content="Joseph Anucha">
 
         <!-- Page title -->
-        <title>Bountiful Foods</title>
+        <title>Bountiful Foods | Fresh </title>
 
         <!-- Stops the font from enlarging when a phone is turned sideways-->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -24,34 +24,104 @@
     <body>
         <!-- HEADER HERE -->
         <header>
-            <div>
-                <img src="images/bf_logo.png" width="80px" height="80px" alt="logo"/>
-            </div>
+            <a href="index.html" id="hd-logo">
+                <img src="images/logo_bf.png" width="200px" height="100px" alt="logo"/>
+                <!-- <picture>
+                    <source srcset="images/logo-1.png" media="(min-width: 400px)">
+                    <img src="images/logo-01.webp" alt="Aba Chamber of Commerce Logo">
+                </picture>-->
+            </a>
 
-            <!-- NAVIGATION HERE -->
-            <nav>
-                <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+            <nav class="nav_links">
+                <a href="index.html" id="logo_sm">
+                    <img src="images/logo_bf.png" width="200px" height="100px" alt="logo"/>
+                </a>
+
                 <ul id="primaryNav">
                     <li><a href="index.html">Home</a></li>
                     <li class="active"><a href="fresh.html">Fresh</a></li>
                     <li><a href="about_us.html">About Us</a></li>   
                 </ul>
-            </nav>
 
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            </nav>
+    
         </header>
         
         
     <!-- CONTENT HERE -->
-        <main>
-           <div>
-           </div>
+        <main class="fresh_content">
+            <form class="fresh_form" method="post">
+                <div class="form_container">
+                    <h2>Make your drink</h2>
+                    <hr>
+                    <fieldset class="personal_info">
+                        <legend>Personal Information</legend>
+                        <label class="info">First Name* <input type="text" name="fname" required></label>
+                        <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="info">Phone* <input type="tel" name="phone" placeholder="(000) 000-0000" required></label>
+                    </fieldset>
+
+                    <fieldset class="fruits_choice">
+                        <legend>Select three fruits</legend>
+                        <input type="checkbox" id="fruit1" name="fruit1" value="fruit">
+                        <label for="fruit1">Fruit one</label><br>
+
+                        <input type="checkbox" id="fruit2" name="fruit2" value="fruit">
+                        <label for="fruit2">Fruit two</label><br>
+
+                        <input type="checkbox" id="fruit3" name="fruit3" value="fruit">
+                        <label for="fruit3">Fruit three</label><br><br>
+                    </fieldset>
+
+                    <fieldset class="instruction">
+                        <legend>Please include special instruction if any.</legend>
+                        <label class="info"><textarea name="description" placeholder="Brief instruction..."></textarea></label>   
+                        <input type="hidden" name="datetime" id="todayDate">
+                    </fieldset>
+                    
+                </div>
+                <!--<label class="submit"><input type="submit" value="Make drink"  class="submitBtn"></label>-->
+                <div class="clearfix">
+                    <!--<input type="reset" class="reset" value="Reset">-->
+                    <button type="reset" class="reset">Reset</button>
+                    <button type="button" onclick="document.getElementById('drink_info').style.display='block'" class="submitBtn">Make drink</button>
+                </div>
+            </form>
+
+            <div id="drink_info">
+                <h2>Drink recipes</h2>
+                <h2>Drink contents</h2>
+                <h2>Drink recipes</h2>
+                <h2>Drink contents</h2>
+            </div>
+        
         </main>
         
     <!-- FOOTER HERE -->   
         <footer>
-            <p>&copy; 2023 &bull; Joseph Anucha &bull; +234 806-432-7684</p>
+            <a href="index.html">
+                <img src="images/logo_bf.png" width="200px" height="100px" alt="logo"/>
+            </a>
+
+            <section class="company_address">
+                <p>&copy; 2023 &bull; Bountiful Foods &bull; +234 806-432-7684</p>
+                <p>Carlsbad, Carlifonia</p>
+            </section>
+
+            <section class="author_info">
+                <p>Joseph Anucha</p>
+                <p>WDD 230 Project</p>
+            </section>
+
+            <section class="social_icons">
+                <a href="https://www.facebook.com/"><img src="images/fb-icon.png" width="50" alt="Facebook Icon"></a>
+                <a href="https://www.linkedin.com/"><img src="images/in-icon.png" width="50" alt="Linked Icon"></a>
+                <a href="https://www.twitter.com/"><img src="images/twitter.png" width="50" alt="Twitter Icon"></a>
+            </section>
+        
         </footer>
         
-        <script src="bfoods_main/scripts.js"></script>
+        <script src="scripts/bfoods_main.js"></script>
     </body>
 </html>
