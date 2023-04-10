@@ -57,53 +57,56 @@
                     <hr>
                     <fieldset class="personal_info">
                         <legend>Personal Information</legend>
-                        <label class="info">First Name* <input type="text" name="fname" required></label>
-                        <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                        <label class="info">Phone* <input type="tel" name="phone" placeholder="(000) 000-0000" required></label>
+                        <label class="info">First Name* <input type="text" name="fname" id="fname" required></label>
+                        <label class="info">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                        <label class="info">Phone* <input type="tel" name="phone" id="phone" placeholder="(000) 000-0000" required></label>
                     </fieldset>
 
                     <fieldset class="fruits_choice">
                         <legend>Select three fruits</legend>
-                        <!-- <input type="checkbox" id="fruit1" name="fruit1" value="fruit">-->
-                        
+
                     </fieldset>
 
                     <fieldset class="instruction">
                         <legend>Please include special instruction if any.</legend>
-                        <label class="info"><textarea name="description" placeholder="Brief instruction..."></textarea></label>   
-                        <input type="hidden" name="datetime" id="todayDate">
+                        <label class="info"><textarea name="description" id="text_area" placeholder="Brief instruction..."></textarea></label> 
                     </fieldset>
                     
                 </div>
-                <!--<label class="submit"><input type="submit" value="Make drink"  class="submitBtn"></label>-->
+
                 <div class="clearfix">
                     <!--<input type="reset" class="reset" value="Reset">-->
                     <button type="reset" class="reset">Reset</button>
-                    <button type="button" onclick="document.getElementById('info_and_nuts').style.display='block'" class="submitBtn">Make drink</button>
+                    <button type="button" onclick="cust_info()" class="submitBtn">Make drink</button>
+                    <!--<button type="button" onclick="document.getElementById('info_and_nuts').style.display='block'" class="submitBtn">Make drink</button>-->
                 </div>
             </form>
 
             <div id="info_and_nuts">
                 <div class="cust_info">
-                    <h2 class="cust_name"></h2>
-                    <p class="cust_email"></p>
-                    <p class="cust_phone"></p>
-                    <p class="selected_fruits">
+                    <h3>Name: <span class="cust_name"></span></h3>
+                    <p>Email: <span class="cust_email"></span></p>
+                    <p>Phone: <span class="cust_phone"></span></p>
+                    <p class="selected_fruits"> Available fruits: 
                         <span class="fruit_1"></span>, 
                         <span class="fruit_2"></span>,  
                         <span class="fruit_3"></span> 
                     </p>
-                    <p class="special_instruction"></p>
+                    <br>
+                    <p>Special information: <span class="special_instruction"></span></p>
                 </div>
 
                 <div class="drink_info">
                     <h3>Nutritional Facts</h3>
-                    <p> Order date: <span class="order_date"></span></p>
-                    <p>Total carbohydrates: <span class="carbohydrate"></span></p> 
-                    <p>Total protein: <span class="protein"></span></p> 
-                    <p>Total fat: <span class="fat"></span></p> 
-                    <p>Total sugar: <span class="sugar"></span></p> 
-                    <p>Total calories: <span class="calories"></span></p>
+                    <hr>
+                    <p>Carbohydrates: <span id="carbohydrate"></span></p> 
+                    <p>Protein: <span id="protein"></span></p> 
+                    <p>Fat: <span id="fat"></span></p> 
+                    <p>Sugar: <span id="sugar"></span></p> 
+                    <p>Calories: <span id="calories"></span></p>
+                    <hr>
+                    <p> Order date: <span id="order_date"></span></p>
+                    
                 </div>
                  
             </div>
