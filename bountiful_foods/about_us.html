@@ -52,7 +52,9 @@
     <!-- CONTENT HERE -->
         <main class="fresh_content">
             <div class="hist_area_info">
-                <img src="images/carlsbad01.png" class="hist_area_info_1" width="400px" height="400px" alt="logo"/>
+                <picture>
+                    <img src="images/placeholder1.png" data-src="images/carlsbad01.png" class="hist_area_info_1 lazy"alt="carlsbad"/>
+                </picture>
                 <p class="hist_area_info_2">Carlsbad is a city near San Diego, in California. It's known for Tamarack Surf Beach, 
                     backed by the Carlsbad Sea Wall, and secluded South Carlsbad State Beach. The Legoland 
                     California theme park includes rides, a water park and the SEA LIFE Aquarium. 
@@ -60,13 +62,17 @@
                     the Leo Carrillo Ranch Historic Park is home to free-roaming peacocks.
                 </p>
 
-                <img src="images/fruit-juice02.jpg" class="hist_area_info_3" width="400px" height="400px" alt="logo"/>
+                <picture>
+                    <img src="images/placeholder1.png" data-src="images/fruit-juice02.jpg" class="hist_area_info_3 lazy" alt="fruit juice"/>  
+                </picture>
                 <p class="hist_area_info_4">A team of highly trained staff professionally manages our production and quality 
                     processes to ensure world-class products. We use the finest, farm-fresh vegetables, 
                     fruits, and spices, and synthesise them to present the following culinary accompaniments.
                 </p>
 
-                <img src="images/bakery02.jpg" class="hist_area_info_5" width="400px" height="400px" alt="logo"/>
+                <picture>
+                <img src="images/placeholder1.png" data-src="images/bakery02.jpg" class="hist_area_info_5 lazy" alt="bakery"/>
+                </picture>
                 <div class="hist_area_info_6">
                     <h2>In order to preserve agricultural output, we make our sauces and pickles with farm-based produces</h2>
                     <p>✅ Reducing wastage of farm produce</p>
@@ -97,6 +103,7 @@
             <section class="author_info">
                 <p>Joseph Anucha</p>
                 <p>WDD 230 Project</p>
+                <section id="timemod"></section>
             </section>
 
             <section class="social_icons">
@@ -108,5 +115,6 @@
         </footer>
         
         <script src="scripts/bfoods_main.js"></script>
+        <script src="scripts/lazyload.js"></script>
     </body>
 </html>

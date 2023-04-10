@@ -46,7 +46,7 @@ let calories = 0;
 function displayCard(fruit) {
     // Create elements to add to the document
     let label = document.createElement("label");
-    label.setAttribute("class", "fruit_choice");
+    label.setAttribute("class", "select_fruits");
     let input = document.createElement("input");
     input.setAttribute("type", "checkbox");
     let br = document.createElement("br");
@@ -71,12 +71,10 @@ function displayCard(fruit) {
 }
 
 // Adding eventListener to the Make Drink button
-document.getElementById("info_and_nuts").addEventListener("click", cust_info);
+//document.getElementById("info_and_nuts").addEventListener("click", cust_info);
 let currentDate = new Date().toJSON().slice(0, 10);
 //console.log(currentDate);
 
-//Track the number of orders or drinks made
-let count = 0;
 
 //Display user's information
 function cust_info() {
@@ -97,3 +95,14 @@ function cust_info() {
     count++
 }
 
+//Track the number of orders or drinks made by the user.
+clickCounter();
+
+function clickCounter() {
+    if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+        localStorage.clickcount = 1;
+    }
+    document.getElementById("orders_submitted").innerHTML = localStorage.clickcount;
+}

@@ -3,6 +3,16 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans:ital,wght@0,400;0,700;1,600&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --main-color: #EFF6FB;
+    --second-color: #FFE2C2;
+    --third-color: #146429;
+    --accent-two: #223127;
+    --header-font: "Roboto", "Merriweather", serif;
+    --paragraph-font: "Merriweather", "Open Sans", sans-serif;
+}
 
 /* HOMEPAGE */
 /* HEADER area */
@@ -11,8 +21,34 @@ a#hd-logo {
 }
 
 
-h1, p {
-    margin: 0 2vw;
+h1, h2 {
+    font-family: var(--header-font);
+    margin: 0 1vw;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    margin: 0.3em 2vw;
+    color: var(--accent-two);
+    line-height: 1.5;
+}
+
+/* Fresh page */
+legend {
+    font-family: var(--header-font);
+    padding: .3em;
+}
+
+label.select_fruits {
+    margin: .2em;
+    padding: .3em;
+    font-family: var(--paragraph-font);
+}
+
+
+label input {
+    margin: .3em .4em;
+    padding: .3em;
 }
 
 nav.nav_links button {
@@ -152,7 +188,7 @@ input[type=text]:focus {
   
   /* Set a style for all buttons */
 button {
-    background-color: #083802;
+    background-color: #012622;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
