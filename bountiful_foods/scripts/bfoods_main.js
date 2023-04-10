@@ -83,3 +83,5 @@ fetch(apiURL)
   newParagraph.innerText =`Last Modification: ${removeTZ}`;
   
   document.querySelector('#timemod').appendChild(newParagraph);
+
+  

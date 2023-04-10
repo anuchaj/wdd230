@@ -132,6 +132,8 @@ div.coast_area_section .coast img,
 div.coast_area_section img {
     width: 100%;
 }
+
+
 /* FOOTER */
 footer {
     display: block;
@@ -232,6 +234,10 @@ div#info_and_nuts {
 div#carlsbad_map {
     margin: 2em auto;
     text-align: center;
+}
+
+div.hist_area_info img{
+    width: 100%;
 }
 
 
