@@ -146,6 +146,7 @@
     img.hist_area_info_1 {
         grid-column: 1/1;
         grid-row: 1/1;
+        width: 100%;
     }
     p.hist_area_info_2 {
         grid-column: 2/2;
@@ -155,6 +156,7 @@
     img.hist_area_info_3 {
         grid-column: 2/2;
         grid-row: 2/2;
+        width: 100%;
     }
     p.hist_area_info_4 {
         grid-column: 1/1;
@@ -164,6 +166,7 @@
     img.hist_area_info_5 {
         grid-column: 1 / 2;
         grid-row: 3/3;
+        width: 100%;
     }
     div.hist_area_info_6 {
         grid-column: 2/3;

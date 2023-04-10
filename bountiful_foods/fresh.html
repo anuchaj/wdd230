@@ -64,14 +64,8 @@
 
                     <fieldset class="fruits_choice">
                         <legend>Select three fruits</legend>
-                        <input type="checkbox" id="fruit1" name="fruit1" value="fruit">
-                        <label for="fruit1">Fruit one</label><br>
-
-                        <input type="checkbox" id="fruit2" name="fruit2" value="fruit">
-                        <label for="fruit2">Fruit two</label><br>
-
-                        <input type="checkbox" id="fruit3" name="fruit3" value="fruit">
-                        <label for="fruit3">Fruit three</label><br><br>
+                        <!-- <input type="checkbox" id="fruit1" name="fruit1" value="fruit">-->
+                        
                     </fieldset>
 
                     <fieldset class="instruction">
@@ -85,15 +79,33 @@
                 <div class="clearfix">
                     <!--<input type="reset" class="reset" value="Reset">-->
                     <button type="reset" class="reset">Reset</button>
-                    <button type="button" onclick="document.getElementById('drink_info').style.display='block'" class="submitBtn">Make drink</button>
+                    <button type="button" onclick="document.getElementById('info_and_nuts').style.display='block'" class="submitBtn">Make drink</button>
                 </div>
             </form>
 
-            <div id="drink_info">
-                <h2>Drink recipes</h2>
-                <h2>Drink contents</h2>
-                <h2>Drink recipes</h2>
-                <h2>Drink contents</h2>
+            <div id="info_and_nuts">
+                <div class="cust_info">
+                    <h2 class="cust_name"></h2>
+                    <p class="cust_email"></p>
+                    <p class="cust_phone"></p>
+                    <p class="selected_fruits">
+                        <span class="fruit_1"></span>, 
+                        <span class="fruit_2"></span>,  
+                        <span class="fruit_3"></span> 
+                    </p>
+                    <p class="special_instruction"></p>
+                </div>
+
+                <div class="drink_info">
+                    <h3>Nutritional Facts</h3>
+                    <p> Order date: <span class="order_date"></span></p>
+                    <p>Total carbohydrates: <span class="carbohydrate"></span></p> 
+                    <p>Total protein: <span class="protein"></span></p> 
+                    <p>Total fat: <span class="fat"></span></p> 
+                    <p>Total sugar: <span class="sugar"></span></p> 
+                    <p>Total calories: <span class="calories"></span></p>
+                </div>
+                 
             </div>
         
         </main>
@@ -123,5 +135,6 @@
         </footer>
         
         <script src="scripts/bfoods_main.js"></script>
+        <script src="scripts/bfoods_fresh.js"></script>
     </body>
 </html>

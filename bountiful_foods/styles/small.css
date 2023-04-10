@@ -10,6 +10,7 @@ a#hd-logo {
     display: none;
 }
 
+
 h1, p {
     margin: 0 2vw;
 }
@@ -151,7 +152,7 @@ input[type=text]:focus {
   
   /* Set a style for all buttons */
 button {
-    background-color: #04AA6D;
+    background-color: #083802;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -181,10 +182,10 @@ button:hover {
 /* Extra styles for the reset button */
 .reset {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: #f55b1f;
   }
 
-div#drink_info {
+div#info_and_nuts {
     display: none;
     margin: 2em auto;
     text-align: center;

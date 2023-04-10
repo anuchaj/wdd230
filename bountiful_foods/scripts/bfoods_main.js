@@ -14,7 +14,6 @@ function calculate_wind(temp, speed) {
     return wind_chill_calculate;
 }
 
-
 /* const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=Fairbanks&appid=a78ec261e24b796f729e2597d514690b"; */
 const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=metric&cnt=3&appid=a78ec261e24b796f729e2597d514690b"; // Celcius
 //"https://api.openweathermap.org/data/2.5/forecast?q=Aba&units=metric&cnt=3&appid=a78ec261e24b796f729e2597d514690b";
