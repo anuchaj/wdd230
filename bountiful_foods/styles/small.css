@@ -9,12 +9,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --main-color: #EFF6FB;
     --second-color: #FFE2C2;
     --third-color: #146429;
-    --accent-two: #223127;
-    --header-font: "Roboto", "Merriweather", serif;
+    --accent-one: #223127;
+    --header-font: "Roboto", serif;
     --paragraph-font: "Merriweather", "Open Sans", sans-serif;
 }
 
 /* HOMEPAGE */
+/* BODY */
+body {
+    background-color: var(--main-color);
+}
+
 /* HEADER area */
 a#hd-logo {
     display: none;
@@ -24,12 +29,30 @@ a#hd-logo {
 h1, h2 {
     font-family: var(--header-font);
     margin: 0 1vw;
+    color: var(--accent-one);
+}
+
+div.business_info h4 {
+    font-family: var(--paragraph-font);
+    line-height: 1.5rem;
+    color: var(--accent-one);
+}
+
+button.call-to-action a {
+    font-family: var(--header-font);
+    text-decoration: none;
+    color: var(--accent-one);
+    font-size: x-large;
+}
+
+div.business_info button.call-to-action {
+    background-color: var(--second-color);
 }
 
 p {
     font-family: var(--paragraph-font);
     margin: 0.3em 2vw;
-    color: var(--accent-two);
+    color: var(--accent-one);
     line-height: 1.5;
 }
 
@@ -86,13 +109,14 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: var(--accent-one);
+    font-family: var(--header-font);
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
 
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
+    background-color: var(--accent-one);
     color: #fff;
 }
 
@@ -134,15 +158,8 @@ div.coast_area_section img {
 }
 
 
-/* FOOTER */
-footer {
-    display: block;
-    text-align: center;
-}
 
-
-
-/* FRESH PAGE */
+/* FRESH PAGE starting */
 .fresh_form {
     background-color: #fefefe;
     margin: 5% auto 2em auto; /* 5% from the top, 15% from the bottom and centered */
@@ -204,6 +221,16 @@ button:hover {
     opacity: 1;
 }
 
+label.info {
+    font-family: var(--paragraph-font);
+}
+
+legend {
+    font-family: var(--paragraph-font);
+    color: var(--third-color);
+    font-size: x-large;
+}
+
 /* Clear floats */
 .clearfix::after {
     content: "";
@@ -228,19 +255,50 @@ div#info_and_nuts {
     margin: 2em auto;
     text-align: center;
 }
+/* FRESH page ending */
 
 
 /* ABOUT US PAGE */
-div#carlsbad_map {
-    margin: 2em auto;
-    text-align: center;
+main.fresh_content {
+    margin: .5em 2em;
 }
 
-div.hist_area_info img{
+img.hist_area_info_3, img.hist_area_info_5 {
+    margin-top: 2.5em;
+    width: 100%;
+}
+img.hist_area_info_1 {
     width: 100%;
 }
 
+p.hist_area_info_2, 
+p.hist_area_info_4,
+div.hist_area_info_6 p {
+    color: var(--accent-one);
+}
+
+div.hist_area_info_6 h2 {
+    margin: .6em auto;
+    padding: 0 .3em;
+    color: var(--third-color);
+    font-family: var(--custom-font);
+}
+
+/* Format the Google Map card */
+div#carlsbad_map iframe { 
+    width: 100%;
+    margin: 2em auto;
+    padding: 2em;
+    text-align: center;
+}
+/* About Us page ending */
 
 
 
+/* FOOTER START */
+footer {
+    display: block;
+    text-align: center;
+}
+/* FOOTER END */
 

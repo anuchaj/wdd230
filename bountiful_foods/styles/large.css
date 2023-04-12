@@ -34,7 +34,7 @@
         padding: .5rem 1rem;
     }
 
-    /* Starting the MAIN section */
+    /* Starting the MAIN section of the index page */
     main.content {
         margin: 0 auto;
         max-width: 999px;
@@ -75,10 +75,10 @@
     div.business_info button {
         line-height: 2em;
         width: 10em;
-        background-color: #FFCE0A;
+        /* background-color: #FFCE0A;*/
         font-size: 1.2em;
         border-radius: 20px 20px;
-        color: #02223C;
+        /*color: #02223C;*/
     }
 
     /* Coastal area info */
@@ -133,8 +133,7 @@
 
 
 
-
-    /* FRESH PAGE */
+    /* FRESH PAGE starting */
     div.hist_area_info {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -174,12 +173,29 @@
     }
 
 
+    /* About US page starting */
+    img.hist_area_info_1,
+    img.hist_area_info_3, 
+    img.hist_area_info_5 {
+        width: 100%;
+        height: 100%;
+    }
+
+    p.hist_area_info_2, 
+    p.hist_area_info_4,
+    div.hist_area_info_6 p {
+        font-size: 1.3rem;
+    }
+
+    img.hist_area_info_3, img.hist_area_info_5 {
+        margin-top: 0;
+    }
+    /* About US page ending */
+    
 
 
 
-
-
-    /* Footer section */
+    /* Footer section starting*/
     footer {
         display: flex;
         justify-content: center;
