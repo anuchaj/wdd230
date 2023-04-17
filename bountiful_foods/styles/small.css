@@ -157,6 +157,15 @@ div.coast_area_section img {
     width: 100%;
 }
 
+div.weather-sections, div.coast_area_section {
+    margin-top: 1.5em;
+}
+
+/* Weather Section */
+div.weather-sections {
+    margin: 2em 0;
+    text-align: center;
+}
 
 
 /* FRESH PAGE starting */
