@@ -74,51 +74,51 @@
     },
     {
       "membership": "Silver",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Phoenix Tax Guy",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/airbnb",
+      "name": "Airbnb",
+      "address": "San Francisco, California, United States",
+      "phone": "+1-855-635-7754",
+      "website": "www.airbnb.com"
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Arizona SR22",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/facebook.png",
+      "name": "Facebook",
+      "address": "Menlo Park, California, United States",
+      "phone": "+1-650-543-4800",
+      "website": "www.facebook.com"
     },
     {
       "membership": "Silver",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Peace Of Mind",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/cisco.png",
+      "name": "Cisco",
+      "address": "San Jose, California, United States",
+      "phone": "+1-800-553-2447",
+      "website": "www.cisco.com"
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Rooter Hero Plumbi",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/dell.png",
+      "name": "Dell",
+      "address": "Round Rock, Texas, United States",
+      "phone": "+1-866-795-5597",
+      "website": "www.dell.com"
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Phoenix Bail Bonds",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/twitter.png",
+      "name": "Twitter",
+      "address": "San Francisco, California, United States",
+      "phone": "+1-415-222-9670",
+      "website": "www.twitter.com"
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "PSD TO HTML Ninja",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/in.png",
+      "name": "LinkedIn",
+      "address": "Sunnyvale, California, United States",
+      "phone": "+1-650-687-3555",
+      "website": "www.linkedin.com"
     }
   ]
 }
