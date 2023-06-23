@@ -2,7 +2,7 @@
   "companies": [
     {
       "membership": "Gold",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/apples.png",
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/apples-logo.webp",
       "name": "Apples",
       "address": "Los Altos, California, United States",
       "phone": "+1 800–275–2273",
@@ -10,7 +10,7 @@
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/amazon.png",
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/amazon-logo.webp",
       "name": "Amazon",
       "address": "Bellevue, Washington, United States",
       "phone": "+1-888-280-4331",
@@ -50,7 +50,7 @@
     },
     {
       "membership": "Gold",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/intel.png",
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/intel-logo.webp",
       "name": "Intel",
       "address": "Santa Clara, California, United States",
       "phone": "1-800-538-3373",
