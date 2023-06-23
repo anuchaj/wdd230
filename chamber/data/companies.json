@@ -18,59 +18,59 @@
     },
     {
       "membership": "Silver",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Stellar Plumbing",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/ibm.png",
+      "name": "IBM",
+      "address": "Armonk, New York, United States",
+      "phone": "+1-800-426-4968",
+      "website": "www.ibm.com"
     },
     {
       "membership": "Gold",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "BLT Kitchens",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/google.png",
+      "name": "Google",
+      "address": "Mountain View, California, United States",
+      "phone": "+1-866-246-6453",
+      "website": "www.google.com"
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Vivian Freitas AZ",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/sap.png",
+      "name": "SAP",
+      "address": "Walldorf, Germany",
+      "phone": "+234-1-2776400",
+      "website": "www.sap.com"
     },
     {
       "membership": "Silver",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Tempe Mobile Car",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft.png",
+      "name": "Microsoft",
+      "address": "Redmond, Washington, United States",
+      "phone": "01 271 0156",
+      "website": "www.microsoft.com"
     },
     {
       "membership": "Gold",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Geeks in Phoenix",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/intel.png",
+      "name": "Intel",
+      "address": "Santa Clara, California, United States",
+      "phone": "1-800-538-3373",
+      "website": "www.intel.com"
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Rental Trader",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/nvidia.png",
+      "name": "Nvidia",
+      "address": "Santa Clara, California, United States",
+      "phone": "+1-408-486-2000",
+      "website": "www.nvidia.com"
     },
     {
       "membership": "Silver",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "Rivera’s Amazing",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/lenovo.png",
+      "name": "Lenovo",
+      "address": "Quarry Bay, Hong Kong",
+      "phone": "+1-800-4199-733",
+      "website": "www.lenovo.com"
     },
     {
       "membership": "Silver",
