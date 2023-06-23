@@ -2,19 +2,19 @@
   "companies": [
     {
       "membership": "Gold",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "ComCool Systems",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/apples.png",
+      "name": "Apples",
+      "address": "Los Altos, California, United States",
+      "phone": "+1 800–275–2273",
+      "website": "www.apple.com"
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/logo-01.webp",
-      "name": "VIBE Design Group",
-      "address": "7 Factory Road Aba",
-      "phone": "+2348064327684",
-      "website": "comcoolsystems.glitch.me"
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/amazon.png",
+      "name": "Amazon",
+      "address": "Bellevue, Washington, United States",
+      "phone": "+1-888-280-4331",
+      "website": "www.amazon.com"
     },
     {
       "membership": "Silver",
