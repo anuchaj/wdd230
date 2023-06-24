@@ -8,14 +8,16 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const business = jsonObject['companies'];
 
-    let randomMembers = [];
+    let randomMembers = []; // array to store selected members
     let member = "";
-    let count = 0;
+    let count = 0; // to keep track of the number of members needed
     while (count < 3) {
-      member = business[Math.floor(Math.random() * business.length)];
-      if (member.membership == "Gold" || member.membership == "Silver" ){
-        randomMembers.push(member);
-        count++;
+      member = business[Math.floor(Math.random() * business.length)]; // bring the lenght of members to absolute
+      if (member.membership == "Gold" || member.membership == "Silver" ){ // checks membership status
+        if (!randomMembers.includes(member)) { // 'includes' is used to check to see if member doesn't already exist in the list.
+          randomMembers.push(member); // adds member to the selected list
+          count++;
+        }
       }
     }
     //console.log(randomMembers);
