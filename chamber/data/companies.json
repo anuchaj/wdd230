@@ -18,7 +18,7 @@
     },
     {
       "membership": "Silver",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/ibm.png",
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/ibm_logo.webp",
       "name": "IBM",
       "address": "Armonk, New York, United States",
       "phone": "+1-800-426-4968",
@@ -26,7 +26,7 @@
     },
     {
       "membership": "Gold",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/google.png",
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/google-logo.webp",
       "name": "Google",
       "address": "Mountain View, California, United States",
       "phone": "+1-866-246-6453",
@@ -34,7 +34,7 @@
     },
     {
       "membership": "Bronze",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/sap.png",
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/sap-logo.webp",
       "name": "SAP",
       "address": "Walldorf, Germany",
       "phone": "+234-1-2776400",
@@ -42,7 +42,7 @@
     },
     {
       "membership": "Silver",
-      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft.png",
+      "imageurl": "https://anuchaj.github.io/wdd230/chamber/images/microsoft-logo.webp",
       "name": "Microsoft",
       "address": "Redmond, Washington, United States",
       "phone": "01 271 0156",
